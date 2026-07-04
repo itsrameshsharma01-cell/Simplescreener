@@ -1026,9 +1026,9 @@ def generate_dashboard():
         f'<span class="last-updated" id="lastUpdated"><span class="dot dot-fresh"></span> Updated: {last_updated}</span>'
     )
 
-    with open("dashboard.html", "w", encoding="utf-8") as f:
+    with open("index.html", "w", encoding="utf-8") as f:
         f.write(html_content)
-    print("dashboard.html generated successfully.")
+    print("index.html generated successfully.")
 
 if __name__ == "__main__":
     generate_dashboard()
