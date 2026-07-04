@@ -44,7 +44,7 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add daily_screener_results.csv index.html
+        git add -A
         # If there are changes, commit them
         git diff --staged --quiet || git commit -m "Auto-update daily screener data"
         git push
