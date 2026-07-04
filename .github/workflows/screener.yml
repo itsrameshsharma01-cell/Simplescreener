@@ -4,7 +4,7 @@ on:
   schedule:
     # Runs at 11:30 UTC every weekday (Mon-Fri)
     # 11:30 UTC is 5:00 PM IST (after the Indian market closes)
-    - cron: '30 11 * * 1-5'
+    - cron: '30 10 * * 1-5'
   workflow_dispatch: # Allows you to manually trigger a run from the GitHub UI
 
 jobs:
