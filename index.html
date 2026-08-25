@@ -324,7 +324,7 @@
                 <button class="top-tab" onclick="switchModule('historical', this)">🕰️ Historical Engine</button>
             </div>
             <div class="topbar-right">
-                <span class="last-updated" id="lastUpdated"><span class="dot dot-fresh"></span> Updated: 25 Aug 2026, 04:55 AM</span>
+                <span class="last-updated" id="lastUpdated"><span class="dot dot-fresh"></span> Updated: 25 Aug 2026, 05:08 AM</span>
                 <button class="refresh-btn" id="refreshBtn" onclick="refreshData()" title="Re-fetch market data">
                     <span class="refresh-icon">🔄</span>
                     <span class="spinner"></span>
@@ -357,13 +357,13 @@
                     </div>
     
                     <div class="nav-item active" onclick="switchView('daily-breakouts', this)">
-                        <span>🚀</span> Breakouts <span class="nav-count">2</span>
+                        <span>🚀</span> Breakouts <span class="nav-count">3</span>
                     </div>
                     <div class="nav-item" onclick="switchView('daily-watchlist', this)">
-                        <span>🎯</span> Watchlist <span class="nav-count">67</span>
+                        <span>🎯</span> Watchlist <span class="nav-count">65</span>
                     </div>
                     <div class="nav-item" onclick="switchView('daily-universe', this)">
-                        <span>🌌</span> Full Universe <span class="nav-count">88</span>
+                        <span>🌌</span> Full Universe <span class="nav-count">86</span>
                     </div>
                 </div>
 
@@ -417,6 +417,25 @@
                 </thead>
                 <tbody>
     
+                    <tr class="" data-symbol="BEPL">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('BEPL', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:BEPL" target="_blank" class="tv-link" title="Open in TradingView">BEPL</a>
+                        </td>
+                        <td><span class="badge">Basic Materials</span></td>
+                        <td>4</td>
+                        <td style="font-weight: 600;">31.39</td>
+                        <td class="price-cell">129.26</td>
+                        <td><span class='positive'>+4.13%</span></td>
+                        <td>3217.24</td>
+                        <td><span class='positive'>+27.5%</span></td>
+                        <td><span class='positive'>+38.2%</span></td>
+                        <td><span class='neutral'>-</span></td>
+                        <td><span class='positive'>+38.0%</span></td>
+                    </tr>
+        
                     <tr class="" data-symbol="CYIENTDLM">
                         <td class="star-cell">
                             <button class="star-btn" onclick="toggleFocus('CYIENTDLM', this)" title="Add to Focus">☆</button>
@@ -426,10 +445,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">69.33</td>
-                        <td class="price-cell">748.8</td>
-                        <td><span class='positive'>+4.06%</span></td>
-                        <td>5939.63</td>
+                        <td style="font-weight: 600;">69.55</td>
+                        <td class="price-cell">750.0</td>
+                        <td><span class='positive'>+4.2%</span></td>
+                        <td>5957.49</td>
                         <td><span class='negative'>-27.6%</span></td>
                         <td><span class='positive'>+1.3%</span></td>
                         <td>0.17</td>
@@ -445,10 +464,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">31.88</td>
-                        <td class="price-cell">221.61</td>
-                        <td><span class='positive'>+4.68%</span></td>
-                        <td>2823.12</td>
+                        <td style="font-weight: 600;">32.5</td>
+                        <td class="price-cell">222.72</td>
+                        <td><span class='positive'>+5.11%</span></td>
+                        <td>2837.88</td>
                         <td><span class='positive'>+134.5%</span></td>
                         <td><span class='positive'>+10.5%</span></td>
                         <td>0.42</td>
@@ -511,10 +530,10 @@
                         </td>
                         <td><span class="badge">Healthcare</span></td>
                         <td>2</td>
-                        <td style="font-weight: 600;">84.23</td>
-                        <td class="price-cell">1756.1</td>
-                        <td><span class='positive'>+2.49%</span></td>
-                        <td>28940.65</td>
+                        <td style="font-weight: 600;">83.49</td>
+                        <td class="price-cell">1749.6</td>
+                        <td><span class='positive'>+2.18%</span></td>
+                        <td>28858.1</td>
                         <td><span class='positive'>+4.3%</span></td>
                         <td><span class='positive'>+8.1%</span></td>
                         <td>0.24</td>
@@ -530,10 +549,10 @@
                         </td>
                         <td><span class="badge">Healthcare</span></td>
                         <td>2</td>
-                        <td style="font-weight: 600;">64.11</td>
-                        <td class="price-cell">837.05</td>
-                        <td><span class='positive'>+3.15%</span></td>
-                        <td>16379.98</td>
+                        <td style="font-weight: 600;">64.74</td>
+                        <td class="price-cell">840.45</td>
+                        <td><span class='positive'>+3.49%</span></td>
+                        <td>16440.61</td>
                         <td><span class='negative'>-6.4%</span></td>
                         <td><span class='positive'>+6.6%</span></td>
                         <td>0.25</td>
@@ -550,9 +569,9 @@
                         <td><span class="badge">Healthcare</span></td>
                         <td>2</td>
                         <td style="font-weight: 600;">42.16</td>
-                        <td class="price-cell">316.85</td>
-                        <td><span class='positive'>+1.22%</span></td>
-                        <td>14381.15</td>
+                        <td class="price-cell">316.95</td>
+                        <td><span class='positive'>+1.25%</span></td>
+                        <td>14365.29</td>
                         <td><span class='positive'>+30.8%</span></td>
                         <td><span class='positive'>+13.5%</span></td>
                         <td>0.11</td>
@@ -568,10 +587,10 @@
                         </td>
                         <td><span class="badge">Healthcare</span></td>
                         <td>2</td>
-                        <td style="font-weight: 600;">40.7</td>
-                        <td class="price-cell">757.8</td>
-                        <td><span class='positive'>+1.53%</span></td>
-                        <td>11603.61</td>
+                        <td style="font-weight: 600;">40.77</td>
+                        <td class="price-cell">758.45</td>
+                        <td><span class='positive'>+1.61%</span></td>
+                        <td>11614.32</td>
                         <td><span class='positive'>+18.1%</span></td>
                         <td><span class='positive'>+0.8%</span></td>
                         <td>0.06</td>
@@ -587,10 +606,10 @@
                         </td>
                         <td><span class="badge">Healthcare</span></td>
                         <td>2</td>
-                        <td style="font-weight: 600;">40.49</td>
-                        <td class="price-cell">1017.1</td>
-                        <td><span class='positive'>+1.03%</span></td>
-                        <td>5156.86</td>
+                        <td style="font-weight: 600;">40.6</td>
+                        <td class="price-cell">1018.25</td>
+                        <td><span class='positive'>+1.12%</span></td>
+                        <td>5156.36</td>
                         <td><span class='neutral'>-</span></td>
                         <td><span class='positive'>+14.6%</span></td>
                         <td><span class='neutral'>-</span></td>
@@ -606,10 +625,10 @@
                         </td>
                         <td><span class="badge">Healthcare</span></td>
                         <td>2</td>
-                        <td style="font-weight: 600;">33.97</td>
-                        <td class="price-cell">22734.0</td>
-                        <td><span class='negative'>-0.54%</span></td>
-                        <td>29180.3</td>
+                        <td style="font-weight: 600;">34.0</td>
+                        <td class="price-cell">22748.0</td>
+                        <td><span class='negative'>-0.49%</span></td>
+                        <td>29199.55</td>
                         <td><span class='negative'>-30.6%</span></td>
                         <td><span class='negative'>-17.3%</span></td>
                         <td>0.16</td>
@@ -625,10 +644,10 @@
                         </td>
                         <td><span class="badge">Healthcare</span></td>
                         <td>2</td>
-                        <td style="font-weight: 600;">31.77</td>
-                        <td class="price-cell">365.6</td>
-                        <td><span class='positive'>+3.73%</span></td>
-                        <td>10341.79</td>
+                        <td style="font-weight: 600;">31.87</td>
+                        <td class="price-cell">366.0</td>
+                        <td><span class='positive'>+3.82%</span></td>
+                        <td>10343.21</td>
                         <td><span class='neutral'>-</span></td>
                         <td><span class='negative'>-45.9%</span></td>
                         <td>0.03</td>
@@ -644,10 +663,10 @@
                         </td>
                         <td><span class="badge">Consumer Defensive</span></td>
                         <td>3</td>
-                        <td style="font-weight: 600;">120.31</td>
-                        <td class="price-cell">283.8</td>
-                        <td><span class='positive'>+1.37%</span></td>
-                        <td>38154.75</td>
+                        <td style="font-weight: 600;">120.61</td>
+                        <td class="price-cell">284.25</td>
+                        <td><span class='positive'>+1.5%</span></td>
+                        <td>38221.98</td>
                         <td><span class='positive'>+23.1%</span></td>
                         <td><span class='positive'>+29.0%</span></td>
                         <td>0.13</td>
@@ -663,9 +682,9 @@
                         </td>
                         <td><span class="badge">Consumer Defensive</span></td>
                         <td>3</td>
-                        <td style="font-weight: 600;">65.58</td>
-                        <td class="price-cell">7415.0</td>
-                        <td><span class='positive'>+0.04%</span></td>
+                        <td style="font-weight: 600;">65.66</td>
+                        <td class="price-cell">7421.0</td>
+                        <td><span class='positive'>+0.1%</span></td>
                         <td>5334.45</td>
                         <td><span class='neutral'>-</span></td>
                         <td><span class='positive'>+74.7%</span></td>
@@ -682,10 +701,10 @@
                         </td>
                         <td><span class="badge">Consumer Defensive</span></td>
                         <td>3</td>
-                        <td style="font-weight: 600;">35.54</td>
-                        <td class="price-cell">467.75</td>
-                        <td><span class='positive'>+1.35%</span></td>
-                        <td>3775.41</td>
+                        <td style="font-weight: 600;">35.95</td>
+                        <td class="price-cell">469.3</td>
+                        <td><span class='positive'>+1.62%</span></td>
+                        <td>3798.08</td>
                         <td><span class='positive'>+48.9%</span></td>
                         <td><span class='positive'>+42.0%</span></td>
                         <td>0.56</td>
@@ -701,10 +720,10 @@
                         </td>
                         <td><span class="badge">Consumer Defensive</span></td>
                         <td>3</td>
-                        <td style="font-weight: 600;">34.14</td>
-                        <td class="price-cell">1911.9</td>
-                        <td><span class='positive'>+3.74%</span></td>
-                        <td>12057.64</td>
+                        <td style="font-weight: 600;">33.7</td>
+                        <td class="price-cell">1906.5</td>
+                        <td><span class='positive'>+3.5%</span></td>
+                        <td>12041.86</td>
                         <td><span class='negative'>-41.2%</span></td>
                         <td><span class='positive'>+7.9%</span></td>
                         <td>0.52</td>
@@ -720,10 +739,10 @@
                         </td>
                         <td><span class="badge">Basic Materials</span></td>
                         <td>4</td>
-                        <td style="font-weight: 600;">97.33</td>
-                        <td class="price-cell">4200.7</td>
-                        <td><span class='negative'>-2.38%</span></td>
-                        <td>5083.37</td>
+                        <td style="font-weight: 600;">98.03</td>
+                        <td class="price-cell">4216.5</td>
+                        <td><span class='negative'>-2.07%</span></td>
+                        <td>5073.02</td>
                         <td><span class='positive'>+194.0%</span></td>
                         <td><span class='positive'>+25.0%</span></td>
                         <td>1.26</td>
@@ -739,10 +758,10 @@
                         </td>
                         <td><span class="badge">Basic Materials</span></td>
                         <td>4</td>
-                        <td style="font-weight: 600;">57.46</td>
-                        <td class="price-cell">674.7</td>
-                        <td><span class='negative'>-1.69%</span></td>
-                        <td>4627.14</td>
+                        <td style="font-weight: 600;">57.7</td>
+                        <td class="price-cell">675.95</td>
+                        <td><span class='negative'>-1.54%</span></td>
+                        <td>4627.83</td>
                         <td><span class='positive'>+508.0%</span></td>
                         <td><span class='positive'>+21.2%</span></td>
                         <td>0.0</td>
@@ -758,14 +777,33 @@
                         </td>
                         <td><span class="badge">Basic Materials</span></td>
                         <td>4</td>
-                        <td style="font-weight: 600;">53.15</td>
-                        <td class="price-cell">169.84</td>
+                        <td style="font-weight: 600;">53.09</td>
+                        <td class="price-cell">169.83</td>
                         <td><span class='positive'>+2.23%</span></td>
-                        <td>7441.72</td>
+                        <td>7433.83</td>
                         <td><span class='positive'>+88.4%</span></td>
                         <td><span class='negative'>-35.5%</span></td>
                         <td>1.57</td>
                         <td><span class='positive'>+13.9%</span></td>
+                    </tr>
+        
+                    <tr class="" data-symbol="KRISHANA">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('KRISHANA', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:KRISHANA" target="_blank" class="tv-link" title="Open in TradingView">KRISHANA</a>
+                        </td>
+                        <td><span class="badge">Basic Materials</span></td>
+                        <td>4</td>
+                        <td style="font-weight: 600;">47.81</td>
+                        <td class="price-cell">199.46</td>
+                        <td><span class='positive'>+3.98%</span></td>
+                        <td>6167.3</td>
+                        <td><span class='positive'>+149.4%</span></td>
+                        <td><span class='positive'>+14.6%</span></td>
+                        <td>1.31</td>
+                        <td><span class='positive'>+27.8%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="JGCHEM">
@@ -777,33 +815,14 @@
                         </td>
                         <td><span class="badge">Basic Materials</span></td>
                         <td>4</td>
-                        <td style="font-weight: 600;">44.37</td>
-                        <td class="price-cell">593.95</td>
-                        <td><span class='negative'>-1.76%</span></td>
-                        <td>2328.44</td>
+                        <td style="font-weight: 600;">44.15</td>
+                        <td class="price-cell">593.25</td>
+                        <td><span class='negative'>-1.86%</span></td>
+                        <td>2311.19</td>
                         <td><span class='positive'>+2.4%</span></td>
                         <td><span class='positive'>+15.2%</span></td>
                         <td>0.01</td>
                         <td><span class='positive'>+29.0%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="BEPL">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('BEPL', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:BEPL" target="_blank" class="tv-link" title="Open in TradingView">BEPL</a>
-                        </td>
-                        <td><span class="badge">Basic Materials</span></td>
-                        <td>4</td>
-                        <td style="font-weight: 600;">31.06</td>
-                        <td class="price-cell">128.89</td>
-                        <td><span class='positive'>+3.89%</span></td>
-                        <td>3205.05</td>
-                        <td><span class='positive'>+27.5%</span></td>
-                        <td><span class='positive'>+38.2%</span></td>
-                        <td><span class='neutral'>-</span></td>
-                        <td><span class='positive'>+38.0%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="AEGISLOG">
@@ -815,10 +834,10 @@
                         </td>
                         <td><span class="badge">Energy</span></td>
                         <td>5</td>
-                        <td style="font-weight: 600;">84.84</td>
-                        <td class="price-cell">1333.9</td>
-                        <td><span class='negative'>-0.45%</span></td>
-                        <td>46826.91</td>
+                        <td style="font-weight: 600;">84.65</td>
+                        <td class="price-cell">1332.9</td>
+                        <td><span class='negative'>-0.51%</span></td>
+                        <td>46851.48</td>
                         <td><span class='positive'>+18.0%</span></td>
                         <td><span class='negative'>-9.2%</span></td>
                         <td>0.47</td>
@@ -834,10 +853,10 @@
                         </td>
                         <td><span class="badge">Energy</span></td>
                         <td>5</td>
-                        <td style="font-weight: 600;">53.79</td>
-                        <td class="price-cell">252.65</td>
-                        <td><span class='positive'>+1.22%</span></td>
-                        <td>2472.93</td>
+                        <td style="font-weight: 600;">53.39</td>
+                        <td class="price-cell">252.09</td>
+                        <td><span class='positive'>+1.04%</span></td>
+                        <td>2469.11</td>
                         <td><span class='positive'>+372.4%</span></td>
                         <td><span class='positive'>+58.4%</span></td>
                         <td>0.23</td>
@@ -853,10 +872,10 @@
                         </td>
                         <td><span class="badge">Energy</span></td>
                         <td>5</td>
-                        <td style="font-weight: 600;">38.13</td>
-                        <td class="price-cell">659.75</td>
-                        <td><span class='negative'>-0.92%</span></td>
-                        <td>4218.88</td>
+                        <td style="font-weight: 600;">37.56</td>
+                        <td class="price-cell">657.3</td>
+                        <td><span class='negative'>-1.22%</span></td>
+                        <td>4223.36</td>
                         <td><span class='neutral'>-</span></td>
                         <td><span class='positive'>+12.1%</span></td>
                         <td>0.1</td>
@@ -872,10 +891,10 @@
                         </td>
                         <td><span class="badge">Energy</span></td>
                         <td>5</td>
-                        <td style="font-weight: 600;">36.2</td>
-                        <td class="price-cell">1406.2</td>
-                        <td><span class='positive'>+1.65%</span></td>
-                        <td>20941.41</td>
+                        <td style="font-weight: 600;">35.99</td>
+                        <td class="price-cell">1404.6</td>
+                        <td><span class='positive'>+1.56%</span></td>
+                        <td>20925.03</td>
                         <td><span class='negative'>-27.5%</span></td>
                         <td><span class='positive'>+62.7%</span></td>
                         <td>0.18</td>
@@ -891,10 +910,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">64.13</td>
-                        <td class="price-cell">1419.0</td>
-                        <td><span class='negative'>-0.1%</span></td>
-                        <td>11420.03</td>
+                        <td style="font-weight: 600;">65.48</td>
+                        <td class="price-cell">1431.0</td>
+                        <td><span class='positive'>+0.59%</span></td>
+                        <td>11564.28</td>
                         <td><span class='negative'>-38.4%</span></td>
                         <td><span class='negative'>-25.3%</span></td>
                         <td>0.04</td>
@@ -910,10 +929,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">63.51</td>
-                        <td class="price-cell">340.6</td>
-                        <td><span class='positive'>+1.79%</span></td>
-                        <td>5090.93</td>
+                        <td style="font-weight: 600;">63.26</td>
+                        <td class="price-cell">340.2</td>
+                        <td><span class='positive'>+1.7%</span></td>
+                        <td>5089.44</td>
                         <td><span class='positive'>+27.0%</span></td>
                         <td><span class='positive'>+7.4%</span></td>
                         <td>0.11</td>
@@ -929,10 +948,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">56.02</td>
-                        <td class="price-cell">2170.5</td>
-                        <td><span class='positive'>+1.35%</span></td>
-                        <td>20497.17</td>
+                        <td style="font-weight: 600;">55.81</td>
+                        <td class="price-cell">2168.4</td>
+                        <td><span class='positive'>+1.27%</span></td>
+                        <td>20476.41</td>
                         <td><span class='positive'>+9.5%</span></td>
                         <td><span class='positive'>+6.0%</span></td>
                         <td>0.15</td>
@@ -948,10 +967,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">50.14</td>
-                        <td class="price-cell">1445.1</td>
-                        <td><span class='negative'>-1.15%</span></td>
-                        <td>7335.49</td>
+                        <td style="font-weight: 600;">51.03</td>
+                        <td class="price-cell">1454.1</td>
+                        <td><span class='negative'>-0.64%</span></td>
+                        <td>7395.55</td>
                         <td><span class='positive'>+6.8%</span></td>
                         <td><span class='positive'>+31.6%</span></td>
                         <td>0.17</td>
@@ -967,10 +986,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">47.17</td>
-                        <td class="price-cell">315.65</td>
-                        <td><span class='positive'>+0.33%</span></td>
-                        <td>2859.68</td>
+                        <td style="font-weight: 600;">47.02</td>
+                        <td class="price-cell">315.45</td>
+                        <td><span class='positive'>+0.27%</span></td>
+                        <td>2859.23</td>
                         <td><span class='positive'>+16.5%</span></td>
                         <td><span class='positive'>+15.2%</span></td>
                         <td>0.01</td>
@@ -986,10 +1005,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">46.73</td>
-                        <td class="price-cell">1602.6</td>
-                        <td><span class='positive'>+1.54%</span></td>
-                        <td>2782.88</td>
+                        <td style="font-weight: 600;">46.19</td>
+                        <td class="price-cell">1597.3</td>
+                        <td><span class='positive'>+1.27%</span></td>
+                        <td>2777.32</td>
                         <td><span class='negative'>-19.4%</span></td>
                         <td><span class='negative'>-3.0%</span></td>
                         <td>0.0</td>
@@ -1005,10 +1024,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">43.7</td>
-                        <td class="price-cell">1014.45</td>
-                        <td><span class='positive'>+1.96%</span></td>
-                        <td>5838.19</td>
+                        <td style="font-weight: 600;">42.77</td>
+                        <td class="price-cell">1008.3</td>
+                        <td><span class='positive'>+1.45%</span></td>
+                        <td>5803.05</td>
                         <td><span class='positive'>+17.0%</span></td>
                         <td><span class='positive'>+21.2%</span></td>
                         <td>0.15</td>
@@ -1024,10 +1043,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">42.05</td>
-                        <td class="price-cell">804.2</td>
-                        <td><span class='negative'>-0.3%</span></td>
-                        <td>3622.86</td>
+                        <td style="font-weight: 600;">42.21</td>
+                        <td class="price-cell">805.4</td>
+                        <td><span class='negative'>-0.18%</span></td>
+                        <td>3630.3</td>
                         <td><span class='positive'>+53.7%</span></td>
                         <td><span class='positive'>+20.6%</span></td>
                         <td>0.18</td>
@@ -1043,10 +1062,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">41.17</td>
-                        <td class="price-cell">2824.9</td>
-                        <td><span class='negative'>-0.15%</span></td>
-                        <td>31928.55</td>
+                        <td style="font-weight: 600;">41.72</td>
+                        <td class="price-cell">2836.8</td>
+                        <td><span class='positive'>+0.2%</span></td>
+                        <td>32017.91</td>
                         <td><span class='positive'>+22.2%</span></td>
                         <td><span class='positive'>+6.9%</span></td>
                         <td>0.13</td>
@@ -1062,33 +1081,14 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">36.8</td>
-                        <td class="price-cell">637.95</td>
-                        <td><span class='positive'>+0.68%</span></td>
-                        <td>10395.81</td>
+                        <td style="font-weight: 600;">36.79</td>
+                        <td class="price-cell">638.15</td>
+                        <td><span class='positive'>+0.71%</span></td>
+                        <td>10393.37</td>
                         <td><span class='positive'>+24.6%</span></td>
                         <td><span class='negative'>-5.0%</span></td>
                         <td>0.36</td>
                         <td><span class='positive'>+9.1%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="VINDHYATEL">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('VINDHYATEL', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:VINDHYATEL" target="_blank" class="tv-link" title="Open in TradingView">VINDHYATEL</a>
-                        </td>
-                        <td><span class="badge">Industrials</span></td>
-                        <td>6</td>
-                        <td style="font-weight: 600;">33.75</td>
-                        <td class="price-cell">2402.6</td>
-                        <td><span class='negative'>-0.5%</span></td>
-                        <td>2848.95</td>
-                        <td><span class='neutral'>-</span></td>
-                        <td><span class='positive'>+40.9%</span></td>
-                        <td>0.34</td>
-                        <td><span class='positive'>+43.2%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="UNIVCABLES">
@@ -1100,33 +1100,33 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">33.67</td>
-                        <td class="price-cell">1578.2</td>
-                        <td><span class='negative'>-2.37%</span></td>
-                        <td>5470.07</td>
+                        <td style="font-weight: 600;">33.86</td>
+                        <td class="price-cell">1581.0</td>
+                        <td><span class='negative'>-2.23%</span></td>
+                        <td>5489.16</td>
                         <td><span class='positive'>+103.3%</span></td>
                         <td><span class='positive'>+9.4%</span></td>
                         <td>0.62</td>
                         <td><span class='positive'>+28.1%</span></td>
                     </tr>
         
-                    <tr class="" data-symbol="MMFL">
+                    <tr class="" data-symbol="VINDHYATEL">
                         <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('MMFL', this)" title="Add to Focus">☆</button>
+                            <button class="star-btn" onclick="toggleFocus('VINDHYATEL', this)" title="Add to Focus">☆</button>
                         </td>
                         <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:MMFL" target="_blank" class="tv-link" title="Open in TradingView">MMFL</a>
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:VINDHYATEL" target="_blank" class="tv-link" title="Open in TradingView">VINDHYATEL</a>
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">33.47</td>
-                        <td class="price-cell">636.05</td>
-                        <td><span class='positive'>+0.14%</span></td>
-                        <td>3069.99</td>
-                        <td><span class='positive'>+154.7%</span></td>
-                        <td><span class='positive'>+4.1%</span></td>
-                        <td>1.27</td>
-                        <td><span class='positive'>+38.9%</span></td>
+                        <td style="font-weight: 600;">33.61</td>
+                        <td class="price-cell">2400.9</td>
+                        <td><span class='negative'>-0.56%</span></td>
+                        <td>2856.06</td>
+                        <td><span class='neutral'>-</span></td>
+                        <td><span class='positive'>+40.9%</span></td>
+                        <td>0.34</td>
+                        <td><span class='positive'>+43.2%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="APARINDS">
@@ -1138,14 +1138,33 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">33.3</td>
-                        <td class="price-cell">16922.0</td>
-                        <td><span class='positive'>+1.32%</span></td>
-                        <td>70835.43</td>
+                        <td style="font-weight: 600;">33.46</td>
+                        <td class="price-cell">16949.0</td>
+                        <td><span class='positive'>+1.45%</span></td>
+                        <td>70973.61</td>
                         <td><span class='positive'>+84.3%</span></td>
                         <td><span class='negative'>-0.1%</span></td>
                         <td>0.18</td>
                         <td><span class='positive'>+42.5%</span></td>
+                    </tr>
+        
+                    <tr class="" data-symbol="MMFL">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('MMFL', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:MMFL" target="_blank" class="tv-link" title="Open in TradingView">MMFL</a>
+                        </td>
+                        <td><span class="badge">Industrials</span></td>
+                        <td>6</td>
+                        <td style="font-weight: 600;">33.28</td>
+                        <td class="price-cell">635.4</td>
+                        <td><span class='positive'>+0.05%</span></td>
+                        <td>3067.33</td>
+                        <td><span class='positive'>+154.7%</span></td>
+                        <td><span class='positive'>+4.1%</span></td>
+                        <td>1.27</td>
+                        <td><span class='positive'>+38.9%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="AZAD">
@@ -1157,10 +1176,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">31.59</td>
-                        <td class="price-cell">2821.2</td>
-                        <td><span class='positive'>+2.62%</span></td>
-                        <td>18201.72</td>
+                        <td style="font-weight: 600;">31.42</td>
+                        <td class="price-cell">2818.7</td>
+                        <td><span class='positive'>+2.55%</span></td>
+                        <td>18209.47</td>
                         <td><span class='negative'>-0.7%</span></td>
                         <td><span class='positive'>+6.8%</span></td>
                         <td>0.31</td>
@@ -1176,10 +1195,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">30.62</td>
-                        <td class="price-cell">1993.0</td>
-                        <td><span class='positive'>+0.58%</span></td>
-                        <td>12470.64</td>
+                        <td style="font-weight: 600;">31.13</td>
+                        <td class="price-cell">2001.4</td>
+                        <td><span class='positive'>+0.93%</span></td>
+                        <td>12498.76</td>
                         <td><span class='positive'>+53.9%</span></td>
                         <td><span class='positive'>+47.1%</span></td>
                         <td>0.09</td>
@@ -1195,33 +1214,14 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">29.16</td>
-                        <td class="price-cell">2677.2</td>
-                        <td><span class='negative'>-0.11%</span></td>
-                        <td>6573.86</td>
+                        <td style="font-weight: 600;">29.1</td>
+                        <td class="price-cell">2677.0</td>
+                        <td><span class='negative'>-0.12%</span></td>
+                        <td>6565.74</td>
                         <td><span class='negative'>-27.7%</span></td>
                         <td><span class='negative'>-24.9%</span></td>
                         <td>0.39</td>
                         <td><span class='positive'>+38.8%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="FILATEX">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('FILATEX', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:FILATEX" target="_blank" class="tv-link" title="Open in TradingView">FILATEX</a>
-                        </td>
-                        <td><span class="badge">Consumer Cyclical</span></td>
-                        <td>7</td>
-                        <td style="font-weight: 600;">86.75</td>
-                        <td class="price-cell">82.46</td>
-                        <td><span class='negative'>-0.17%</span></td>
-                        <td>3658.6</td>
-                        <td><span class='positive'>+21.1%</span></td>
-                        <td><span class='positive'>+16.2%</span></td>
-                        <td>0.1</td>
-                        <td><span class='positive'>+26.6%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="KALYANKJIL">
@@ -1233,10 +1233,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">72.64</td>
-                        <td class="price-cell">619.65</td>
-                        <td><span class='positive'>+2.38%</span></td>
-                        <td>63937.61</td>
+                        <td style="font-weight: 600;">71.72</td>
+                        <td class="price-cell">616.55</td>
+                        <td><span class='positive'>+1.96%</span></td>
+                        <td>63674.26</td>
                         <td><span class='negative'>-14.7%</span></td>
                         <td><span class='positive'>+3.1%</span></td>
                         <td>0.97</td>
@@ -1252,10 +1252,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">68.89</td>
+                        <td style="font-weight: 600;">68.84</td>
                         <td class="price-cell">816.8</td>
                         <td><span class='negative'>-1.31%</span></td>
-                        <td>12465.12</td>
+                        <td>12478.1</td>
                         <td><span class='negative'>-77.7%</span></td>
                         <td><span class='positive'>+8.1%</span></td>
                         <td>1.1</td>
@@ -1271,10 +1271,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">68.12</td>
-                        <td class="price-cell">815.6</td>
-                        <td><span class='positive'>+3.96%</span></td>
-                        <td>12631.51</td>
+                        <td style="font-weight: 600;">67.78</td>
+                        <td class="price-cell">814.2</td>
+                        <td><span class='positive'>+3.82%</span></td>
+                        <td>12611.38</td>
                         <td><span class='positive'>+4.8%</span></td>
                         <td><span class='positive'>+8.1%</span></td>
                         <td>0.72</td>
@@ -1290,10 +1290,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">60.19</td>
-                        <td class="price-cell">1203.1</td>
-                        <td><span class='negative'>-0.13%</span></td>
-                        <td>3676.07</td>
+                        <td style="font-weight: 600;">60.56</td>
+                        <td class="price-cell">1206.2</td>
+                        <td><span class='positive'>+0.08%</span></td>
+                        <td>3688.91</td>
                         <td><span class='positive'>+31.4%</span></td>
                         <td><span class='positive'>+18.8%</span></td>
                         <td>0.0</td>
@@ -1309,10 +1309,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">56.77</td>
-                        <td class="price-cell">2017.4</td>
-                        <td><span class='positive'>+3.18%</span></td>
-                        <td>3019.31</td>
+                        <td style="font-weight: 600;">56.79</td>
+                        <td class="price-cell">2018.2</td>
+                        <td><span class='positive'>+3.22%</span></td>
+                        <td>3028.0</td>
                         <td><span class='negative'>-41.4%</span></td>
                         <td><span class='negative'>-15.1%</span></td>
                         <td>0.26</td>
@@ -1328,10 +1328,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">54.98</td>
-                        <td class="price-cell">1443.6</td>
-                        <td><span class='negative'>-0.96%</span></td>
-                        <td>57746.16</td>
+                        <td style="font-weight: 600;">54.78</td>
+                        <td class="price-cell">1442.2</td>
+                        <td><span class='negative'>-1.04%</span></td>
+                        <td>57670.16</td>
                         <td><span class='neutral'>-</span></td>
                         <td><span class='positive'>+3.6%</span></td>
                         <td>0.26</td>
@@ -1347,10 +1347,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">53.89</td>
-                        <td class="price-cell">179.18</td>
-                        <td><span class='negative'>-1.87%</span></td>
-                        <td>6900.85</td>
+                        <td style="font-weight: 600;">53.98</td>
+                        <td class="price-cell">179.34</td>
+                        <td><span class='negative'>-1.8%</span></td>
+                        <td>6895.08</td>
                         <td><span class='positive'>+33.8%</span></td>
                         <td><span class='negative'>-1.4%</span></td>
                         <td>1.23</td>
@@ -1366,10 +1366,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">47.7</td>
-                        <td class="price-cell">3935.1</td>
-                        <td><span class='negative'>-0.63%</span></td>
-                        <td>3573.43</td>
+                        <td style="font-weight: 600;">48.08</td>
+                        <td class="price-cell">3946.4</td>
+                        <td><span class='negative'>-0.4%</span></td>
+                        <td>3586.96</td>
                         <td><span class='negative'>-13.3%</span></td>
                         <td><span class='negative'>-2.4%</span></td>
                         <td>0.88</td>
@@ -1385,33 +1385,14 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">42.12</td>
-                        <td class="price-cell">549.05</td>
-                        <td><span class='negative'>-1.14%</span></td>
-                        <td>2356.9</td>
+                        <td style="font-weight: 600;">42.41</td>
+                        <td class="price-cell">550.35</td>
+                        <td><span class='negative'>-0.95%</span></td>
+                        <td>2362.48</td>
                         <td><span class='positive'>+24.1%</span></td>
                         <td><span class='positive'>+14.5%</span></td>
                         <td><span class='neutral'>-</span></td>
                         <td><span class='positive'>+37.9%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="STOVEKRAFT">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('STOVEKRAFT', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:STOVEKRAFT" target="_blank" class="tv-link" title="Open in TradingView">STOVEKRAFT</a>
-                        </td>
-                        <td><span class="badge">Consumer Cyclical</span></td>
-                        <td>7</td>
-                        <td style="font-weight: 600;">41.67</td>
-                        <td class="price-cell">810.4</td>
-                        <td><span class='positive'>+3.0%</span></td>
-                        <td>2683.02</td>
-                        <td><span class='positive'>+35.6%</span></td>
-                        <td><span class='positive'>+9.6%</span></td>
-                        <td>0.23</td>
-                        <td><span class='positive'>+36.2%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="PGIL">
@@ -1423,33 +1404,33 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">41.43</td>
-                        <td class="price-cell">2344.0</td>
-                        <td><span class='negative'>-0.97%</span></td>
-                        <td>10827.06</td>
+                        <td style="font-weight: 600;">41.42</td>
+                        <td class="price-cell">2344.6</td>
+                        <td><span class='negative'>-0.95%</span></td>
+                        <td>10845.08</td>
                         <td><span class='positive'>+20.6%</span></td>
                         <td><span class='positive'>+16.3%</span></td>
                         <td>0.66</td>
                         <td><span class='positive'>+33.3%</span></td>
                     </tr>
         
-                    <tr class="" data-symbol="SHRIPISTON">
+                    <tr class="" data-symbol="STOVEKRAFT">
                         <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('SHRIPISTON', this)" title="Add to Focus">☆</button>
+                            <button class="star-btn" onclick="toggleFocus('STOVEKRAFT', this)" title="Add to Focus">☆</button>
                         </td>
                         <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:SHRIPISTON" target="_blank" class="tv-link" title="Open in TradingView">SHRIPISTON</a>
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:STOVEKRAFT" target="_blank" class="tv-link" title="Open in TradingView">STOVEKRAFT</a>
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">41.18</td>
-                        <td class="price-cell">4627.1</td>
-                        <td><span class='positive'>+2.58%</span></td>
-                        <td>20383.61</td>
-                        <td><span class='negative'>-7.6%</span></td>
-                        <td><span class='positive'>+1.3%</span></td>
-                        <td><span class='neutral'>-</span></td>
-                        <td><span class='positive'>+5.8%</span></td>
+                        <td style="font-weight: 600;">41.22</td>
+                        <td class="price-cell">808.15</td>
+                        <td><span class='positive'>+2.77%</span></td>
+                        <td>2671.76</td>
+                        <td><span class='positive'>+35.6%</span></td>
+                        <td><span class='positive'>+9.6%</span></td>
+                        <td>0.23</td>
+                        <td><span class='positive'>+36.2%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="KDDL">
@@ -1461,14 +1442,33 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">40.58</td>
-                        <td class="price-cell">3974.2</td>
-                        <td><span class='positive'>+1.29%</span></td>
-                        <td>4882.81</td>
+                        <td style="font-weight: 600;">41.0</td>
+                        <td class="price-cell">3987.3</td>
+                        <td><span class='positive'>+1.56%</span></td>
+                        <td>4910.36</td>
                         <td><span class='positive'>+10.1%</span></td>
                         <td><span class='negative'>-3.6%</span></td>
                         <td>0.27</td>
                         <td><span class='positive'>+40.8%</span></td>
+                    </tr>
+        
+                    <tr class="" data-symbol="SHRIPISTON">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('SHRIPISTON', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:SHRIPISTON" target="_blank" class="tv-link" title="Open in TradingView">SHRIPISTON</a>
+                        </td>
+                        <td><span class="badge">Consumer Cyclical</span></td>
+                        <td>7</td>
+                        <td style="font-weight: 600;">40.48</td>
+                        <td class="price-cell">4606.2</td>
+                        <td><span class='positive'>+2.21%</span></td>
+                        <td>20286.7</td>
+                        <td><span class='negative'>-7.6%</span></td>
+                        <td><span class='positive'>+1.3%</span></td>
+                        <td><span class='neutral'>-</span></td>
+                        <td><span class='positive'>+5.8%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="TBOTEK">
@@ -1480,33 +1480,14 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">39.86</td>
-                        <td class="price-cell">1719.8</td>
-                        <td><span class='positive'>+2.54%</span></td>
-                        <td>18340.15</td>
+                        <td style="font-weight: 600;">39.75</td>
+                        <td class="price-cell">1719.1</td>
+                        <td><span class='positive'>+2.5%</span></td>
+                        <td>18347.62</td>
                         <td><span class='positive'>+38.5%</span></td>
                         <td><span class='positive'>+13.7%</span></td>
                         <td>0.49</td>
                         <td><span class='positive'>+32.0%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="PRICOLLTD">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('PRICOLLTD', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:PRICOLLTD" target="_blank" class="tv-link" title="Open in TradingView">PRICOLLTD</a>
-                        </td>
-                        <td><span class="badge">Consumer Cyclical</span></td>
-                        <td>7</td>
-                        <td style="font-weight: 600;">37.01</td>
-                        <td class="price-cell">779.75</td>
-                        <td><span class='negative'>-0.45%</span></td>
-                        <td>9497.62</td>
-                        <td><span class='negative'>-8.3%</span></td>
-                        <td><span class='positive'>+0.5%</span></td>
-                        <td>0.3</td>
-                        <td><span class='positive'>+60.3%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="VARROC">
@@ -1518,10 +1499,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">36.32</td>
-                        <td class="price-cell">803.0</td>
-                        <td><span class='negative'>-1.28%</span></td>
-                        <td>12269.79</td>
+                        <td style="font-weight: 600;">36.35</td>
+                        <td class="price-cell">803.5</td>
+                        <td><span class='negative'>-1.23%</span></td>
+                        <td>12257.56</td>
                         <td><span class='neutral'>-</span></td>
                         <td><span class='positive'>+3.5%</span></td>
                         <td>0.51</td>
@@ -1537,10 +1518,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">34.77</td>
-                        <td class="price-cell">423.3</td>
-                        <td><span class='positive'>+0.02%</span></td>
-                        <td>8391.56</td>
+                        <td style="font-weight: 600;">35.33</td>
+                        <td class="price-cell">425.2</td>
+                        <td><span class='positive'>+0.38%</span></td>
+                        <td>8412.36</td>
                         <td><span class='negative'>0.0%</span></td>
                         <td><span class='negative'>-0.5%</span></td>
                         <td>0.57</td>
@@ -1556,10 +1537,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">33.99</td>
-                        <td class="price-cell">806.8</td>
-                        <td><span class='negative'>-0.21%</span></td>
-                        <td>50316.78</td>
+                        <td style="font-weight: 600;">33.92</td>
+                        <td class="price-cell">806.7</td>
+                        <td><span class='negative'>-0.22%</span></td>
+                        <td>50335.49</td>
                         <td><span class='negative'>-6.1%</span></td>
                         <td><span class='positive'>+3.5%</span></td>
                         <td>0.07</td>
@@ -1575,10 +1556,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">31.29</td>
-                        <td class="price-cell">5161.0</td>
-                        <td><span class='negative'>-1.12%</span></td>
-                        <td>7466.65</td>
+                        <td style="font-weight: 600;">31.66</td>
+                        <td class="price-cell">5177.5</td>
+                        <td><span class='negative'>-0.86%</span></td>
+                        <td>7496.31</td>
                         <td><span class='positive'>+263.0%</span></td>
                         <td><span class='positive'>+77.6%</span></td>
                         <td>0.56</td>
@@ -1594,10 +1575,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">31.07</td>
-                        <td class="price-cell">245.66</td>
-                        <td><span class='positive'>+3.88%</span></td>
-                        <td>7905.27</td>
+                        <td style="font-weight: 600;">31.04</td>
+                        <td class="price-cell">245.69</td>
+                        <td><span class='positive'>+3.89%</span></td>
+                        <td>7903.02</td>
                         <td><span class='neutral'>-</span></td>
                         <td><span class='positive'>+12.5%</span></td>
                         <td>1.02</td>
@@ -1613,33 +1594,14 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">30.14</td>
-                        <td class="price-cell">3829.9</td>
+                        <td style="font-weight: 600;">30.09</td>
+                        <td class="price-cell">3830.0</td>
                         <td><span class='negative'>-0.42%</span></td>
-                        <td>23893.08</td>
+                        <td>23876.85</td>
                         <td><span class='positive'>+76.3%</span></td>
                         <td><span class='positive'>+10.0%</span></td>
                         <td>0.19</td>
                         <td><span class='positive'>+69.3%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="REDINGTON">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('REDINGTON', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:REDINGTON" target="_blank" class="tv-link" title="Open in TradingView">REDINGTON</a>
-                        </td>
-                        <td><span class="badge">Technology</span></td>
-                        <td>8</td>
-                        <td style="font-weight: 600;">58.9</td>
-                        <td class="price-cell">360.55</td>
-                        <td><span class='positive'>+3.81%</span></td>
-                        <td>28214.24</td>
-                        <td><span class='positive'>+24.2%</span></td>
-                        <td><span class='positive'>+5.1%</span></td>
-                        <td>0.27</td>
-                        <td><span class='positive'>+75.8%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="RPTECH">
@@ -1651,14 +1613,33 @@
                         </td>
                         <td><span class="badge">Technology</span></td>
                         <td>8</td>
-                        <td style="font-weight: 600;">58.43</td>
-                        <td class="price-cell">852.0</td>
-                        <td><span class='negative'>-0.9%</span></td>
-                        <td>5606.74</td>
+                        <td style="font-weight: 600;">58.2</td>
+                        <td class="price-cell">851.05</td>
+                        <td><span class='negative'>-1.0%</span></td>
+                        <td>5604.44</td>
                         <td><span class='positive'>+22.1%</span></td>
                         <td><span class='positive'>+13.6%</span></td>
                         <td>0.49</td>
                         <td><span class='positive'>+30.5%</span></td>
+                    </tr>
+        
+                    <tr class="" data-symbol="REDINGTON">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('REDINGTON', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:REDINGTON" target="_blank" class="tv-link" title="Open in TradingView">REDINGTON</a>
+                        </td>
+                        <td><span class="badge">Technology</span></td>
+                        <td>8</td>
+                        <td style="font-weight: 600;">58.05</td>
+                        <td class="price-cell">358.75</td>
+                        <td><span class='positive'>+3.38%</span></td>
+                        <td>28030.52</td>
+                        <td><span class='positive'>+24.2%</span></td>
+                        <td><span class='positive'>+5.1%</span></td>
+                        <td>0.27</td>
+                        <td><span class='positive'>+75.8%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="NPST">
@@ -1670,10 +1651,10 @@
                         </td>
                         <td><span class="badge">Technology</span></td>
                         <td>8</td>
-                        <td style="font-weight: 600;">53.94</td>
-                        <td class="price-cell">1604.9</td>
-                        <td><span class='positive'>+1.07%</span></td>
-                        <td>3358.81</td>
+                        <td style="font-weight: 600;">56.14</td>
+                        <td class="price-cell">1628.1</td>
+                        <td><span class='positive'>+2.26%</span></td>
+                        <td>3386.56</td>
                         <td><span class='positive'>+4.2%</span></td>
                         <td><span class='positive'>+17.8%</span></td>
                         <td>0.03</td>
@@ -1689,10 +1670,10 @@
                         </td>
                         <td><span class="badge">Technology</span></td>
                         <td>8</td>
-                        <td style="font-weight: 600;">38.97</td>
-                        <td class="price-cell">2125.7</td>
-                        <td><span class='positive'>+1.64%</span></td>
-                        <td>14202.84</td>
+                        <td style="font-weight: 600;">38.72</td>
+                        <td class="price-cell">2122.7</td>
+                        <td><span class='positive'>+1.52%</span></td>
+                        <td>14191.48</td>
                         <td><span class='negative'>-15.3%</span></td>
                         <td><span class='positive'>+0.9%</span></td>
                         <td>0.3</td>
@@ -1708,10 +1689,10 @@
                         </td>
                         <td><span class="badge">Technology</span></td>
                         <td>8</td>
-                        <td style="font-weight: 600;">35.6</td>
-                        <td class="price-cell">1451.6</td>
-                        <td><span class='negative'>-0.38%</span></td>
-                        <td>27957.59</td>
+                        <td style="font-weight: 600;">35.69</td>
+                        <td class="price-cell">1453.1</td>
+                        <td><span class='negative'>-0.3%</span></td>
+                        <td>27967.22</td>
                         <td><span class='negative'>-1.7%</span></td>
                         <td><span class='positive'>+8.4%</span></td>
                         <td>0.13</td>
@@ -1727,33 +1708,14 @@
                         </td>
                         <td><span class="badge">Technology</span></td>
                         <td>8</td>
-                        <td style="font-weight: 600;">35.57</td>
-                        <td class="price-cell">5287.0</td>
-                        <td><span class='positive'>+0.89%</span></td>
-                        <td>31429.05</td>
+                        <td style="font-weight: 600;">35.65</td>
+                        <td class="price-cell">5292.0</td>
+                        <td><span class='positive'>+0.97%</span></td>
+                        <td>31310.16</td>
                         <td><span class='positive'>+20.5%</span></td>
                         <td><span class='positive'>+5.9%</span></td>
                         <td>0.39</td>
                         <td><span class='positive'>+31.6%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="RISHABH">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('RISHABH', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:RISHABH" target="_blank" class="tv-link" title="Open in TradingView">RISHABH</a>
-                        </td>
-                        <td><span class="badge">Technology</span></td>
-                        <td>8</td>
-                        <td style="font-weight: 600;">29.62</td>
-                        <td class="price-cell">696.0</td>
-                        <td><span class='positive'>+2.43%</span></td>
-                        <td>2693.97</td>
-                        <td><span class='negative'>-1.5%</span></td>
-                        <td><span class='positive'>+11.6%</span></td>
-                        <td>0.11</td>
-                        <td><span class='positive'>+28.5%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="EBGNG">
@@ -1765,14 +1727,33 @@
                         </td>
                         <td><span class="badge">Technology</span></td>
                         <td>8</td>
-                        <td style="font-weight: 600;">29.13</td>
-                        <td class="price-cell">582.8</td>
-                        <td><span class='negative'>-0.2%</span></td>
-                        <td>6646.3</td>
+                        <td style="font-weight: 600;">29.57</td>
+                        <td class="price-cell">585.0</td>
+                        <td><span class='positive'>+0.11%</span></td>
+                        <td>6675.94</td>
                         <td><span class='negative'>-31.4%</span></td>
                         <td><span class='negative'>-36.7%</span></td>
                         <td>0.59</td>
                         <td><span class='positive'>+21.0%</span></td>
+                    </tr>
+        
+                    <tr class="" data-symbol="RISHABH">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('RISHABH', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:RISHABH" target="_blank" class="tv-link" title="Open in TradingView">RISHABH</a>
+                        </td>
+                        <td><span class="badge">Technology</span></td>
+                        <td>8</td>
+                        <td style="font-weight: 600;">29.57</td>
+                        <td class="price-cell">696.0</td>
+                        <td><span class='positive'>+2.43%</span></td>
+                        <td>2693.0</td>
+                        <td><span class='negative'>-1.5%</span></td>
+                        <td><span class='positive'>+11.6%</span></td>
+                        <td>0.11</td>
+                        <td><span class='positive'>+28.5%</span></td>
                     </tr>
         
                 </tbody>
@@ -1831,10 +1812,10 @@
                         </td>
                         <td><span class="badge">Financial Services</span></td>
                         <td>1</td>
-                        <td style="font-weight: 600;">81.15</td>
-                        <td class="price-cell">132.65</td>
-                        <td><span class='positive'>+5.66%</span></td>
-                        <td>6149.73</td>
+                        <td style="font-weight: 600;">82.41</td>
+                        <td class="price-cell">133.6</td>
+                        <td><span class='positive'>+6.27%</span></td>
+                        <td>6183.52</td>
                         <td><span class='positive'>+91.3%</span></td>
                         <td><span class='positive'>+7.4%</span></td>
                         <td>0.82</td>
@@ -1850,10 +1831,10 @@
                         </td>
                         <td><span class="badge">Healthcare</span></td>
                         <td>2</td>
-                        <td style="font-weight: 600;">143.9</td>
-                        <td class="price-cell">324.62</td>
-                        <td><span class='positive'>+4.7%</span></td>
-                        <td>2819.15</td>
+                        <td style="font-weight: 600;">144.51</td>
+                        <td class="price-cell">325.49</td>
+                        <td><span class='positive'>+4.93%</span></td>
+                        <td>2830.77</td>
                         <td><span class='positive'>+55.8%</span></td>
                         <td><span class='positive'>+12.6%</span></td>
                         <td>0.01</td>
@@ -1869,10 +1850,10 @@
                         </td>
                         <td><span class="badge">Healthcare</span></td>
                         <td>2</td>
-                        <td style="font-weight: 600;">110.29</td>
-                        <td class="price-cell">93.1</td>
-                        <td><span class='positive'>+4.75%</span></td>
-                        <td>5098.71</td>
+                        <td style="font-weight: 600;">110.01</td>
+                        <td class="price-cell">93.0</td>
+                        <td><span class='positive'>+4.65%</span></td>
+                        <td>5086.65</td>
                         <td><span class='negative'>-44.0%</span></td>
                         <td><span class='positive'>+0.1%</span></td>
                         <td>0.17</td>
@@ -1888,10 +1869,10 @@
                         </td>
                         <td><span class="badge">Healthcare</span></td>
                         <td>2</td>
-                        <td style="font-weight: 600;">84.23</td>
-                        <td class="price-cell">1756.1</td>
-                        <td><span class='positive'>+2.49%</span></td>
-                        <td>28940.65</td>
+                        <td style="font-weight: 600;">83.49</td>
+                        <td class="price-cell">1749.6</td>
+                        <td><span class='positive'>+2.18%</span></td>
+                        <td>28858.1</td>
                         <td><span class='positive'>+4.3%</span></td>
                         <td><span class='positive'>+8.1%</span></td>
                         <td>0.24</td>
@@ -1907,10 +1888,10 @@
                         </td>
                         <td><span class="badge">Healthcare</span></td>
                         <td>2</td>
-                        <td style="font-weight: 600;">64.11</td>
-                        <td class="price-cell">837.05</td>
-                        <td><span class='positive'>+3.15%</span></td>
-                        <td>16379.98</td>
+                        <td style="font-weight: 600;">64.74</td>
+                        <td class="price-cell">840.45</td>
+                        <td><span class='positive'>+3.49%</span></td>
+                        <td>16440.61</td>
                         <td><span class='negative'>-6.4%</span></td>
                         <td><span class='positive'>+6.6%</span></td>
                         <td>0.25</td>
@@ -1927,9 +1908,9 @@
                         <td><span class="badge">Healthcare</span></td>
                         <td>2</td>
                         <td style="font-weight: 600;">42.16</td>
-                        <td class="price-cell">316.85</td>
-                        <td><span class='positive'>+1.22%</span></td>
-                        <td>14381.15</td>
+                        <td class="price-cell">316.95</td>
+                        <td><span class='positive'>+1.25%</span></td>
+                        <td>14365.29</td>
                         <td><span class='positive'>+30.8%</span></td>
                         <td><span class='positive'>+13.5%</span></td>
                         <td>0.11</td>
@@ -1945,10 +1926,10 @@
                         </td>
                         <td><span class="badge">Healthcare</span></td>
                         <td>2</td>
-                        <td style="font-weight: 600;">40.7</td>
-                        <td class="price-cell">757.8</td>
-                        <td><span class='positive'>+1.53%</span></td>
-                        <td>11603.61</td>
+                        <td style="font-weight: 600;">40.77</td>
+                        <td class="price-cell">758.45</td>
+                        <td><span class='positive'>+1.61%</span></td>
+                        <td>11614.32</td>
                         <td><span class='positive'>+18.1%</span></td>
                         <td><span class='positive'>+0.8%</span></td>
                         <td>0.06</td>
@@ -1964,10 +1945,10 @@
                         </td>
                         <td><span class="badge">Healthcare</span></td>
                         <td>2</td>
-                        <td style="font-weight: 600;">40.49</td>
-                        <td class="price-cell">1017.1</td>
-                        <td><span class='positive'>+1.03%</span></td>
-                        <td>5156.86</td>
+                        <td style="font-weight: 600;">40.6</td>
+                        <td class="price-cell">1018.25</td>
+                        <td><span class='positive'>+1.12%</span></td>
+                        <td>5156.36</td>
                         <td><span class='neutral'>-</span></td>
                         <td><span class='positive'>+14.6%</span></td>
                         <td><span class='neutral'>-</span></td>
@@ -1983,10 +1964,10 @@
                         </td>
                         <td><span class="badge">Healthcare</span></td>
                         <td>2</td>
-                        <td style="font-weight: 600;">33.97</td>
-                        <td class="price-cell">22734.0</td>
-                        <td><span class='negative'>-0.54%</span></td>
-                        <td>29180.3</td>
+                        <td style="font-weight: 600;">34.0</td>
+                        <td class="price-cell">22748.0</td>
+                        <td><span class='negative'>-0.49%</span></td>
+                        <td>29199.55</td>
                         <td><span class='negative'>-30.6%</span></td>
                         <td><span class='negative'>-17.3%</span></td>
                         <td>0.16</td>
@@ -2002,10 +1983,10 @@
                         </td>
                         <td><span class="badge">Healthcare</span></td>
                         <td>2</td>
-                        <td style="font-weight: 600;">31.77</td>
-                        <td class="price-cell">365.6</td>
-                        <td><span class='positive'>+3.73%</span></td>
-                        <td>10341.79</td>
+                        <td style="font-weight: 600;">31.87</td>
+                        <td class="price-cell">366.0</td>
+                        <td><span class='positive'>+3.82%</span></td>
+                        <td>10343.21</td>
                         <td><span class='neutral'>-</span></td>
                         <td><span class='negative'>-45.9%</span></td>
                         <td>0.03</td>
@@ -2021,10 +2002,10 @@
                         </td>
                         <td><span class="badge">Consumer Defensive</span></td>
                         <td>3</td>
-                        <td style="font-weight: 600;">120.31</td>
-                        <td class="price-cell">283.8</td>
-                        <td><span class='positive'>+1.37%</span></td>
-                        <td>38154.75</td>
+                        <td style="font-weight: 600;">120.61</td>
+                        <td class="price-cell">284.25</td>
+                        <td><span class='positive'>+1.5%</span></td>
+                        <td>38221.98</td>
                         <td><span class='positive'>+23.1%</span></td>
                         <td><span class='positive'>+29.0%</span></td>
                         <td>0.13</td>
@@ -2040,9 +2021,9 @@
                         </td>
                         <td><span class="badge">Consumer Defensive</span></td>
                         <td>3</td>
-                        <td style="font-weight: 600;">65.58</td>
-                        <td class="price-cell">7415.0</td>
-                        <td><span class='positive'>+0.04%</span></td>
+                        <td style="font-weight: 600;">65.66</td>
+                        <td class="price-cell">7421.0</td>
+                        <td><span class='positive'>+0.1%</span></td>
                         <td>5334.45</td>
                         <td><span class='neutral'>-</span></td>
                         <td><span class='positive'>+74.7%</span></td>
@@ -2059,10 +2040,10 @@
                         </td>
                         <td><span class="badge">Consumer Defensive</span></td>
                         <td>3</td>
-                        <td style="font-weight: 600;">35.54</td>
-                        <td class="price-cell">467.75</td>
-                        <td><span class='positive'>+1.35%</span></td>
-                        <td>3775.41</td>
+                        <td style="font-weight: 600;">35.95</td>
+                        <td class="price-cell">469.3</td>
+                        <td><span class='positive'>+1.62%</span></td>
+                        <td>3798.08</td>
                         <td><span class='positive'>+48.9%</span></td>
                         <td><span class='positive'>+42.0%</span></td>
                         <td>0.56</td>
@@ -2078,10 +2059,10 @@
                         </td>
                         <td><span class="badge">Consumer Defensive</span></td>
                         <td>3</td>
-                        <td style="font-weight: 600;">34.14</td>
-                        <td class="price-cell">1911.9</td>
-                        <td><span class='positive'>+3.74%</span></td>
-                        <td>12057.64</td>
+                        <td style="font-weight: 600;">33.7</td>
+                        <td class="price-cell">1906.5</td>
+                        <td><span class='positive'>+3.5%</span></td>
+                        <td>12041.86</td>
                         <td><span class='negative'>-41.2%</span></td>
                         <td><span class='positive'>+7.9%</span></td>
                         <td>0.52</td>
@@ -2097,10 +2078,10 @@
                         </td>
                         <td><span class="badge">Basic Materials</span></td>
                         <td>4</td>
-                        <td style="font-weight: 600;">97.33</td>
-                        <td class="price-cell">4200.7</td>
-                        <td><span class='negative'>-2.38%</span></td>
-                        <td>5083.37</td>
+                        <td style="font-weight: 600;">98.03</td>
+                        <td class="price-cell">4216.5</td>
+                        <td><span class='negative'>-2.07%</span></td>
+                        <td>5073.02</td>
                         <td><span class='positive'>+194.0%</span></td>
                         <td><span class='positive'>+25.0%</span></td>
                         <td>1.26</td>
@@ -2116,10 +2097,10 @@
                         </td>
                         <td><span class="badge">Basic Materials</span></td>
                         <td>4</td>
-                        <td style="font-weight: 600;">79.83</td>
-                        <td class="price-cell">2394.2</td>
-                        <td><span class='positive'>+13.35%</span></td>
-                        <td>63286.31</td>
+                        <td style="font-weight: 600;">80.47</td>
+                        <td class="price-cell">2403.3</td>
+                        <td><span class='positive'>+13.69%</span></td>
+                        <td>63135.99</td>
                         <td><span class='positive'>+182.4%</span></td>
                         <td><span class='negative'>-5.4%</span></td>
                         <td>0.25</td>
@@ -2135,10 +2116,10 @@
                         </td>
                         <td><span class="badge">Basic Materials</span></td>
                         <td>4</td>
-                        <td style="font-weight: 600;">68.21</td>
-                        <td class="price-cell">1616.2</td>
-                        <td><span class='positive'>+6.38%</span></td>
-                        <td>7420.99</td>
+                        <td style="font-weight: 600;">69.82</td>
+                        <td class="price-cell">1632.0</td>
+                        <td><span class='positive'>+7.22%</span></td>
+                        <td>7494.46</td>
                         <td><span class='positive'>+29.1%</span></td>
                         <td><span class='positive'>+23.2%</span></td>
                         <td>0.02</td>
@@ -2154,10 +2135,10 @@
                         </td>
                         <td><span class="badge">Basic Materials</span></td>
                         <td>4</td>
-                        <td style="font-weight: 600;">57.46</td>
-                        <td class="price-cell">674.7</td>
-                        <td><span class='negative'>-1.69%</span></td>
-                        <td>4627.14</td>
+                        <td style="font-weight: 600;">57.7</td>
+                        <td class="price-cell">675.95</td>
+                        <td><span class='negative'>-1.54%</span></td>
+                        <td>4627.83</td>
                         <td><span class='positive'>+508.0%</span></td>
                         <td><span class='positive'>+21.2%</span></td>
                         <td>0.0</td>
@@ -2173,10 +2154,10 @@
                         </td>
                         <td><span class="badge">Basic Materials</span></td>
                         <td>4</td>
-                        <td style="font-weight: 600;">53.15</td>
-                        <td class="price-cell">169.84</td>
+                        <td style="font-weight: 600;">53.09</td>
+                        <td class="price-cell">169.83</td>
                         <td><span class='positive'>+2.23%</span></td>
-                        <td>7441.72</td>
+                        <td>7433.83</td>
                         <td><span class='positive'>+88.4%</span></td>
                         <td><span class='negative'>-35.5%</span></td>
                         <td>1.57</td>
@@ -2192,10 +2173,10 @@
                         </td>
                         <td><span class="badge">Basic Materials</span></td>
                         <td>4</td>
-                        <td style="font-weight: 600;">48.04</td>
-                        <td class="price-cell">199.7</td>
-                        <td><span class='positive'>+4.08%</span></td>
-                        <td>6164.52</td>
+                        <td style="font-weight: 600;">47.81</td>
+                        <td class="price-cell">199.46</td>
+                        <td><span class='positive'>+3.98%</span></td>
+                        <td>6167.3</td>
                         <td><span class='positive'>+149.4%</span></td>
                         <td><span class='positive'>+14.6%</span></td>
                         <td>1.31</td>
@@ -2211,10 +2192,10 @@
                         </td>
                         <td><span class="badge">Basic Materials</span></td>
                         <td>4</td>
-                        <td style="font-weight: 600;">44.37</td>
-                        <td class="price-cell">593.95</td>
-                        <td><span class='negative'>-1.76%</span></td>
-                        <td>2328.44</td>
+                        <td style="font-weight: 600;">44.15</td>
+                        <td class="price-cell">593.25</td>
+                        <td><span class='negative'>-1.86%</span></td>
+                        <td>2311.19</td>
                         <td><span class='positive'>+2.4%</span></td>
                         <td><span class='positive'>+15.2%</span></td>
                         <td>0.01</td>
@@ -2230,10 +2211,10 @@
                         </td>
                         <td><span class="badge">Basic Materials</span></td>
                         <td>4</td>
-                        <td style="font-weight: 600;">31.06</td>
-                        <td class="price-cell">128.89</td>
-                        <td><span class='positive'>+3.89%</span></td>
-                        <td>3205.05</td>
+                        <td style="font-weight: 600;">31.39</td>
+                        <td class="price-cell">129.26</td>
+                        <td><span class='positive'>+4.13%</span></td>
+                        <td>3217.24</td>
                         <td><span class='positive'>+27.5%</span></td>
                         <td><span class='positive'>+38.2%</span></td>
                         <td><span class='neutral'>-</span></td>
@@ -2249,10 +2230,10 @@
                         </td>
                         <td><span class="badge">Energy</span></td>
                         <td>5</td>
-                        <td style="font-weight: 600;">84.84</td>
-                        <td class="price-cell">1333.9</td>
-                        <td><span class='negative'>-0.45%</span></td>
-                        <td>46826.91</td>
+                        <td style="font-weight: 600;">84.65</td>
+                        <td class="price-cell">1332.9</td>
+                        <td><span class='negative'>-0.51%</span></td>
+                        <td>46851.48</td>
                         <td><span class='positive'>+18.0%</span></td>
                         <td><span class='negative'>-9.2%</span></td>
                         <td>0.47</td>
@@ -2268,10 +2249,10 @@
                         </td>
                         <td><span class="badge">Energy</span></td>
                         <td>5</td>
-                        <td style="font-weight: 600;">53.79</td>
-                        <td class="price-cell">252.65</td>
-                        <td><span class='positive'>+1.22%</span></td>
-                        <td>2472.93</td>
+                        <td style="font-weight: 600;">53.39</td>
+                        <td class="price-cell">252.09</td>
+                        <td><span class='positive'>+1.04%</span></td>
+                        <td>2469.11</td>
                         <td><span class='positive'>+372.4%</span></td>
                         <td><span class='positive'>+58.4%</span></td>
                         <td>0.23</td>
@@ -2287,10 +2268,10 @@
                         </td>
                         <td><span class="badge">Energy</span></td>
                         <td>5</td>
-                        <td style="font-weight: 600;">47.8</td>
-                        <td class="price-cell">611.5</td>
-                        <td><span class='positive'>+7.69%</span></td>
-                        <td>2446.28</td>
+                        <td style="font-weight: 600;">47.01</td>
+                        <td class="price-cell">608.45</td>
+                        <td><span class='positive'>+7.26%</span></td>
+                        <td>2434.08</td>
                         <td><span class='negative'>-47.7%</span></td>
                         <td><span class='negative'>-5.5%</span></td>
                         <td>0.57</td>
@@ -2306,10 +2287,10 @@
                         </td>
                         <td><span class="badge">Energy</span></td>
                         <td>5</td>
-                        <td style="font-weight: 600;">38.13</td>
-                        <td class="price-cell">659.75</td>
-                        <td><span class='negative'>-0.92%</span></td>
-                        <td>4218.88</td>
+                        <td style="font-weight: 600;">37.56</td>
+                        <td class="price-cell">657.3</td>
+                        <td><span class='negative'>-1.22%</span></td>
+                        <td>4223.36</td>
                         <td><span class='neutral'>-</span></td>
                         <td><span class='positive'>+12.1%</span></td>
                         <td>0.1</td>
@@ -2325,10 +2306,10 @@
                         </td>
                         <td><span class="badge">Energy</span></td>
                         <td>5</td>
-                        <td style="font-weight: 600;">36.2</td>
-                        <td class="price-cell">1406.2</td>
-                        <td><span class='positive'>+1.65%</span></td>
-                        <td>20941.41</td>
+                        <td style="font-weight: 600;">35.99</td>
+                        <td class="price-cell">1404.6</td>
+                        <td><span class='positive'>+1.56%</span></td>
+                        <td>20925.03</td>
                         <td><span class='negative'>-27.5%</span></td>
                         <td><span class='positive'>+62.7%</span></td>
                         <td>0.18</td>
@@ -2344,10 +2325,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">158.3</td>
-                        <td class="price-cell">593.55</td>
-                        <td><span class='positive'>+9.97%</span></td>
-                        <td>2074.59</td>
+                        <td style="font-weight: 600;">159.14</td>
+                        <td class="price-cell">595.6</td>
+                        <td><span class='positive'>+10.28%</span></td>
+                        <td>2087.35</td>
                         <td><span class='negative'>-125.4%</span></td>
                         <td><span class='positive'>+3.6%</span></td>
                         <td>0.32</td>
@@ -2363,33 +2344,14 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">69.33</td>
-                        <td class="price-cell">748.8</td>
-                        <td><span class='positive'>+4.06%</span></td>
-                        <td>5939.63</td>
+                        <td style="font-weight: 600;">69.55</td>
+                        <td class="price-cell">750.0</td>
+                        <td><span class='positive'>+4.2%</span></td>
+                        <td>5957.49</td>
                         <td><span class='negative'>-27.6%</span></td>
                         <td><span class='positive'>+1.3%</span></td>
                         <td>0.17</td>
                         <td><span class='positive'>+47.9%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="MSTCLTD">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('MSTCLTD', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:MSTCLTD" target="_blank" class="tv-link" title="Open in TradingView">MSTCLTD</a>
-                        </td>
-                        <td><span class="badge">Industrials</span></td>
-                        <td>6</td>
-                        <td style="font-weight: 600;">65.47</td>
-                        <td class="price-cell">729.0</td>
-                        <td><span class='positive'>+6.9%</span></td>
-                        <td>5133.22</td>
-                        <td><span class='positive'>+50.3%</span></td>
-                        <td><span class='positive'>+34.3%</span></td>
-                        <td>0.16</td>
-                        <td><span class='positive'>+34.1%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="PARAS">
@@ -2401,14 +2363,33 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">64.13</td>
-                        <td class="price-cell">1419.0</td>
-                        <td><span class='negative'>-0.1%</span></td>
-                        <td>11420.03</td>
+                        <td style="font-weight: 600;">65.48</td>
+                        <td class="price-cell">1431.0</td>
+                        <td><span class='positive'>+0.59%</span></td>
+                        <td>11564.28</td>
                         <td><span class='negative'>-38.4%</span></td>
                         <td><span class='negative'>-25.3%</span></td>
                         <td>0.04</td>
                         <td><span class='positive'>+44.0%</span></td>
+                    </tr>
+        
+                    <tr class="" data-symbol="MSTCLTD">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('MSTCLTD', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:MSTCLTD" target="_blank" class="tv-link" title="Open in TradingView">MSTCLTD</a>
+                        </td>
+                        <td><span class="badge">Industrials</span></td>
+                        <td>6</td>
+                        <td style="font-weight: 600;">65.37</td>
+                        <td class="price-cell">728.75</td>
+                        <td><span class='positive'>+6.87%</span></td>
+                        <td>5144.48</td>
+                        <td><span class='positive'>+50.3%</span></td>
+                        <td><span class='positive'>+34.3%</span></td>
+                        <td>0.16</td>
+                        <td><span class='positive'>+34.1%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="QUESS">
@@ -2420,10 +2401,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">63.51</td>
-                        <td class="price-cell">340.6</td>
-                        <td><span class='positive'>+1.79%</span></td>
-                        <td>5090.93</td>
+                        <td style="font-weight: 600;">63.26</td>
+                        <td class="price-cell">340.2</td>
+                        <td><span class='positive'>+1.7%</span></td>
+                        <td>5089.44</td>
                         <td><span class='positive'>+27.0%</span></td>
                         <td><span class='positive'>+7.4%</span></td>
                         <td>0.11</td>
@@ -2439,10 +2420,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">56.02</td>
-                        <td class="price-cell">2170.5</td>
-                        <td><span class='positive'>+1.35%</span></td>
-                        <td>20497.17</td>
+                        <td style="font-weight: 600;">55.81</td>
+                        <td class="price-cell">2168.4</td>
+                        <td><span class='positive'>+1.27%</span></td>
+                        <td>20476.41</td>
                         <td><span class='positive'>+9.5%</span></td>
                         <td><span class='positive'>+6.0%</span></td>
                         <td>0.15</td>
@@ -2458,10 +2439,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">54.18</td>
-                        <td class="price-cell">382.3</td>
-                        <td><span class='positive'>+4.03%</span></td>
-                        <td>5069.14</td>
+                        <td style="font-weight: 600;">54.27</td>
+                        <td class="price-cell">382.65</td>
+                        <td><span class='positive'>+4.11%</span></td>
+                        <td>5071.13</td>
                         <td><span class='positive'>+56.5%</span></td>
                         <td><span class='positive'>+32.0%</span></td>
                         <td>0.18</td>
@@ -2477,10 +2458,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">50.14</td>
-                        <td class="price-cell">1445.1</td>
-                        <td><span class='negative'>-1.15%</span></td>
-                        <td>7335.49</td>
+                        <td style="font-weight: 600;">51.03</td>
+                        <td class="price-cell">1454.1</td>
+                        <td><span class='negative'>-0.64%</span></td>
+                        <td>7395.55</td>
                         <td><span class='positive'>+6.8%</span></td>
                         <td><span class='positive'>+31.6%</span></td>
                         <td>0.17</td>
@@ -2496,10 +2477,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">48.84</td>
-                        <td class="price-cell">993.85</td>
-                        <td><span class='positive'>+6.94%</span></td>
-                        <td>22602.44</td>
+                        <td style="font-weight: 600;">48.83</td>
+                        <td class="price-cell">994.15</td>
+                        <td><span class='positive'>+6.97%</span></td>
+                        <td>22586.53</td>
                         <td><span class='negative'>-36.9%</span></td>
                         <td><span class='negative'>-15.1%</span></td>
                         <td>0.43</td>
@@ -2515,10 +2496,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">47.17</td>
-                        <td class="price-cell">315.65</td>
-                        <td><span class='positive'>+0.33%</span></td>
-                        <td>2859.68</td>
+                        <td style="font-weight: 600;">47.02</td>
+                        <td class="price-cell">315.45</td>
+                        <td><span class='positive'>+0.27%</span></td>
+                        <td>2859.23</td>
                         <td><span class='positive'>+16.5%</span></td>
                         <td><span class='positive'>+15.2%</span></td>
                         <td>0.01</td>
@@ -2534,10 +2515,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">46.73</td>
-                        <td class="price-cell">1602.6</td>
-                        <td><span class='positive'>+1.54%</span></td>
-                        <td>2782.88</td>
+                        <td style="font-weight: 600;">46.19</td>
+                        <td class="price-cell">1597.3</td>
+                        <td><span class='positive'>+1.27%</span></td>
+                        <td>2777.32</td>
                         <td><span class='negative'>-19.4%</span></td>
                         <td><span class='negative'>-3.0%</span></td>
                         <td>0.0</td>
@@ -2553,10 +2534,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">43.7</td>
-                        <td class="price-cell">1014.45</td>
-                        <td><span class='positive'>+1.96%</span></td>
-                        <td>5838.19</td>
+                        <td style="font-weight: 600;">42.77</td>
+                        <td class="price-cell">1008.3</td>
+                        <td><span class='positive'>+1.45%</span></td>
+                        <td>5803.05</td>
                         <td><span class='positive'>+17.0%</span></td>
                         <td><span class='positive'>+21.2%</span></td>
                         <td>0.15</td>
@@ -2572,10 +2553,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">42.05</td>
-                        <td class="price-cell">804.2</td>
-                        <td><span class='negative'>-0.3%</span></td>
-                        <td>3622.86</td>
+                        <td style="font-weight: 600;">42.21</td>
+                        <td class="price-cell">805.4</td>
+                        <td><span class='negative'>-0.18%</span></td>
+                        <td>3630.3</td>
                         <td><span class='positive'>+53.7%</span></td>
                         <td><span class='positive'>+20.6%</span></td>
                         <td>0.18</td>
@@ -2591,10 +2572,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">41.17</td>
-                        <td class="price-cell">2824.9</td>
-                        <td><span class='negative'>-0.15%</span></td>
-                        <td>31928.55</td>
+                        <td style="font-weight: 600;">41.72</td>
+                        <td class="price-cell">2836.8</td>
+                        <td><span class='positive'>+0.2%</span></td>
+                        <td>32017.91</td>
                         <td><span class='positive'>+22.2%</span></td>
                         <td><span class='positive'>+6.9%</span></td>
                         <td>0.13</td>
@@ -2610,33 +2591,14 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">36.8</td>
-                        <td class="price-cell">637.95</td>
-                        <td><span class='positive'>+0.68%</span></td>
-                        <td>10395.81</td>
+                        <td style="font-weight: 600;">36.79</td>
+                        <td class="price-cell">638.15</td>
+                        <td><span class='positive'>+0.71%</span></td>
+                        <td>10393.37</td>
                         <td><span class='positive'>+24.6%</span></td>
                         <td><span class='negative'>-5.0%</span></td>
                         <td>0.36</td>
                         <td><span class='positive'>+9.1%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="VINDHYATEL">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('VINDHYATEL', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:VINDHYATEL" target="_blank" class="tv-link" title="Open in TradingView">VINDHYATEL</a>
-                        </td>
-                        <td><span class="badge">Industrials</span></td>
-                        <td>6</td>
-                        <td style="font-weight: 600;">33.75</td>
-                        <td class="price-cell">2402.6</td>
-                        <td><span class='negative'>-0.5%</span></td>
-                        <td>2848.95</td>
-                        <td><span class='neutral'>-</span></td>
-                        <td><span class='positive'>+40.9%</span></td>
-                        <td>0.34</td>
-                        <td><span class='positive'>+43.2%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="UNIVCABLES">
@@ -2648,33 +2610,33 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">33.67</td>
-                        <td class="price-cell">1578.2</td>
-                        <td><span class='negative'>-2.37%</span></td>
-                        <td>5470.07</td>
+                        <td style="font-weight: 600;">33.86</td>
+                        <td class="price-cell">1581.0</td>
+                        <td><span class='negative'>-2.23%</span></td>
+                        <td>5489.16</td>
                         <td><span class='positive'>+103.3%</span></td>
                         <td><span class='positive'>+9.4%</span></td>
                         <td>0.62</td>
                         <td><span class='positive'>+28.1%</span></td>
                     </tr>
         
-                    <tr class="" data-symbol="MMFL">
+                    <tr class="" data-symbol="VINDHYATEL">
                         <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('MMFL', this)" title="Add to Focus">☆</button>
+                            <button class="star-btn" onclick="toggleFocus('VINDHYATEL', this)" title="Add to Focus">☆</button>
                         </td>
                         <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:MMFL" target="_blank" class="tv-link" title="Open in TradingView">MMFL</a>
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:VINDHYATEL" target="_blank" class="tv-link" title="Open in TradingView">VINDHYATEL</a>
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">33.47</td>
-                        <td class="price-cell">636.05</td>
-                        <td><span class='positive'>+0.14%</span></td>
-                        <td>3069.99</td>
-                        <td><span class='positive'>+154.7%</span></td>
-                        <td><span class='positive'>+4.1%</span></td>
-                        <td>1.27</td>
-                        <td><span class='positive'>+38.9%</span></td>
+                        <td style="font-weight: 600;">33.61</td>
+                        <td class="price-cell">2400.9</td>
+                        <td><span class='negative'>-0.56%</span></td>
+                        <td>2856.06</td>
+                        <td><span class='neutral'>-</span></td>
+                        <td><span class='positive'>+40.9%</span></td>
+                        <td>0.34</td>
+                        <td><span class='positive'>+43.2%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="APARINDS">
@@ -2686,14 +2648,33 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">33.3</td>
-                        <td class="price-cell">16922.0</td>
-                        <td><span class='positive'>+1.32%</span></td>
-                        <td>70835.43</td>
+                        <td style="font-weight: 600;">33.46</td>
+                        <td class="price-cell">16949.0</td>
+                        <td><span class='positive'>+1.45%</span></td>
+                        <td>70973.61</td>
                         <td><span class='positive'>+84.3%</span></td>
                         <td><span class='negative'>-0.1%</span></td>
                         <td>0.18</td>
                         <td><span class='positive'>+42.5%</span></td>
+                    </tr>
+        
+                    <tr class="" data-symbol="MMFL">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('MMFL', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:MMFL" target="_blank" class="tv-link" title="Open in TradingView">MMFL</a>
+                        </td>
+                        <td><span class="badge">Industrials</span></td>
+                        <td>6</td>
+                        <td style="font-weight: 600;">33.28</td>
+                        <td class="price-cell">635.4</td>
+                        <td><span class='positive'>+0.05%</span></td>
+                        <td>3067.33</td>
+                        <td><span class='positive'>+154.7%</span></td>
+                        <td><span class='positive'>+4.1%</span></td>
+                        <td>1.27</td>
+                        <td><span class='positive'>+38.9%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="AZAD">
@@ -2705,33 +2686,14 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">31.59</td>
-                        <td class="price-cell">2821.2</td>
-                        <td><span class='positive'>+2.62%</span></td>
-                        <td>18201.72</td>
+                        <td style="font-weight: 600;">31.42</td>
+                        <td class="price-cell">2818.7</td>
+                        <td><span class='positive'>+2.55%</span></td>
+                        <td>18209.47</td>
                         <td><span class='negative'>-0.7%</span></td>
                         <td><span class='positive'>+6.8%</span></td>
                         <td>0.31</td>
                         <td><span class='positive'>+44.0%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="SGMART">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('SGMART', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:SGMART" target="_blank" class="tv-link" title="Open in TradingView">SGMART</a>
-                        </td>
-                        <td><span class="badge">Industrials</span></td>
-                        <td>6</td>
-                        <td style="font-weight: 600;">31.19</td>
-                        <td class="price-cell">813.95</td>
-                        <td><span class='positive'>+4.38%</span></td>
-                        <td>10256.74</td>
-                        <td><span class='positive'>+9.7%</span></td>
-                        <td><span class='negative'>-28.2%</span></td>
-                        <td>0.17</td>
-                        <td><span class='positive'>+62.1%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="WABAG">
@@ -2743,14 +2705,33 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">30.62</td>
-                        <td class="price-cell">1993.0</td>
-                        <td><span class='positive'>+0.58%</span></td>
-                        <td>12470.64</td>
+                        <td style="font-weight: 600;">31.13</td>
+                        <td class="price-cell">2001.4</td>
+                        <td><span class='positive'>+0.93%</span></td>
+                        <td>12498.76</td>
                         <td><span class='positive'>+53.9%</span></td>
                         <td><span class='positive'>+47.1%</span></td>
                         <td>0.09</td>
                         <td><span class='positive'>+71.5%</span></td>
+                    </tr>
+        
+                    <tr class="" data-symbol="SGMART">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('SGMART', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:SGMART" target="_blank" class="tv-link" title="Open in TradingView">SGMART</a>
+                        </td>
+                        <td><span class="badge">Industrials</span></td>
+                        <td>6</td>
+                        <td style="font-weight: 600;">30.55</td>
+                        <td class="price-cell">810.35</td>
+                        <td><span class='positive'>+4.0%</span></td>
+                        <td>10215.78</td>
+                        <td><span class='positive'>+9.7%</span></td>
+                        <td><span class='negative'>-28.2%</span></td>
+                        <td>0.17</td>
+                        <td><span class='positive'>+62.1%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="KMEW">
@@ -2762,10 +2743,10 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">29.16</td>
-                        <td class="price-cell">2677.2</td>
-                        <td><span class='negative'>-0.11%</span></td>
-                        <td>6573.86</td>
+                        <td style="font-weight: 600;">29.1</td>
+                        <td class="price-cell">2677.0</td>
+                        <td><span class='negative'>-0.12%</span></td>
+                        <td>6565.74</td>
                         <td><span class='negative'>-27.7%</span></td>
                         <td><span class='negative'>-24.9%</span></td>
                         <td>0.39</td>
@@ -2781,33 +2762,14 @@
                         </td>
                         <td><span class="badge">Industrials</span></td>
                         <td>6</td>
-                        <td style="font-weight: 600;">28.55</td>
-                        <td class="price-cell">3423.9</td>
-                        <td><span class='positive'>+9.58%</span></td>
-                        <td>7870.86</td>
+                        <td style="font-weight: 600;">28.99</td>
+                        <td class="price-cell">3436.8</td>
+                        <td><span class='positive'>+9.91%</span></td>
+                        <td>7786.07</td>
                         <td><span class='positive'>+43.1%</span></td>
                         <td><span class='positive'>+7.4%</span></td>
                         <td>0.4</td>
                         <td><span class='positive'>+22.4%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="FILATEX">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('FILATEX', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:FILATEX" target="_blank" class="tv-link" title="Open in TradingView">FILATEX</a>
-                        </td>
-                        <td><span class="badge">Consumer Cyclical</span></td>
-                        <td>7</td>
-                        <td style="font-weight: 600;">86.75</td>
-                        <td class="price-cell">82.46</td>
-                        <td><span class='negative'>-0.17%</span></td>
-                        <td>3658.6</td>
-                        <td><span class='positive'>+21.1%</span></td>
-                        <td><span class='positive'>+16.2%</span></td>
-                        <td>0.1</td>
-                        <td><span class='positive'>+26.6%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="KALYANKJIL">
@@ -2819,10 +2781,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">72.64</td>
-                        <td class="price-cell">619.65</td>
-                        <td><span class='positive'>+2.38%</span></td>
-                        <td>63937.61</td>
+                        <td style="font-weight: 600;">71.72</td>
+                        <td class="price-cell">616.55</td>
+                        <td><span class='positive'>+1.96%</span></td>
+                        <td>63674.26</td>
                         <td><span class='negative'>-14.7%</span></td>
                         <td><span class='positive'>+3.1%</span></td>
                         <td>0.97</td>
@@ -2838,10 +2800,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">70.1</td>
-                        <td class="price-cell">3073.3</td>
-                        <td><span class='positive'>+6.22%</span></td>
-                        <td>14924.24</td>
+                        <td style="font-weight: 600;">70.22</td>
+                        <td class="price-cell">3076.3</td>
+                        <td><span class='positive'>+6.3%</span></td>
+                        <td>14930.55</td>
                         <td><span class='negative'>-20.3%</span></td>
                         <td><span class='negative'>-1.0%</span></td>
                         <td>0.05</td>
@@ -2857,10 +2819,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">68.89</td>
+                        <td style="font-weight: 600;">68.84</td>
                         <td class="price-cell">816.8</td>
                         <td><span class='negative'>-1.31%</span></td>
-                        <td>12465.12</td>
+                        <td>12478.1</td>
                         <td><span class='negative'>-77.7%</span></td>
                         <td><span class='positive'>+8.1%</span></td>
                         <td>1.1</td>
@@ -2876,10 +2838,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">68.12</td>
-                        <td class="price-cell">815.6</td>
-                        <td><span class='positive'>+3.96%</span></td>
-                        <td>12631.51</td>
+                        <td style="font-weight: 600;">67.78</td>
+                        <td class="price-cell">814.2</td>
+                        <td><span class='positive'>+3.82%</span></td>
+                        <td>12611.38</td>
                         <td><span class='positive'>+4.8%</span></td>
                         <td><span class='positive'>+8.1%</span></td>
                         <td>0.72</td>
@@ -2895,10 +2857,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">60.19</td>
-                        <td class="price-cell">1203.1</td>
-                        <td><span class='negative'>-0.13%</span></td>
-                        <td>3676.07</td>
+                        <td style="font-weight: 600;">60.56</td>
+                        <td class="price-cell">1206.2</td>
+                        <td><span class='positive'>+0.08%</span></td>
+                        <td>3688.91</td>
                         <td><span class='positive'>+31.4%</span></td>
                         <td><span class='positive'>+18.8%</span></td>
                         <td>0.0</td>
@@ -2914,10 +2876,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">56.77</td>
-                        <td class="price-cell">2017.4</td>
-                        <td><span class='positive'>+3.18%</span></td>
-                        <td>3019.31</td>
+                        <td style="font-weight: 600;">56.79</td>
+                        <td class="price-cell">2018.2</td>
+                        <td><span class='positive'>+3.22%</span></td>
+                        <td>3028.0</td>
                         <td><span class='negative'>-41.4%</span></td>
                         <td><span class='negative'>-15.1%</span></td>
                         <td>0.26</td>
@@ -2933,10 +2895,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">54.98</td>
-                        <td class="price-cell">1443.6</td>
-                        <td><span class='negative'>-0.96%</span></td>
-                        <td>57746.16</td>
+                        <td style="font-weight: 600;">54.78</td>
+                        <td class="price-cell">1442.2</td>
+                        <td><span class='negative'>-1.04%</span></td>
+                        <td>57670.16</td>
                         <td><span class='neutral'>-</span></td>
                         <td><span class='positive'>+3.6%</span></td>
                         <td>0.26</td>
@@ -2952,10 +2914,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">53.89</td>
-                        <td class="price-cell">179.18</td>
-                        <td><span class='negative'>-1.87%</span></td>
-                        <td>6900.85</td>
+                        <td style="font-weight: 600;">53.98</td>
+                        <td class="price-cell">179.34</td>
+                        <td><span class='negative'>-1.8%</span></td>
+                        <td>6895.08</td>
                         <td><span class='positive'>+33.8%</span></td>
                         <td><span class='negative'>-1.4%</span></td>
                         <td>1.23</td>
@@ -2971,10 +2933,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">53.47</td>
-                        <td class="price-cell">105.43</td>
-                        <td><span class='positive'>+4.36%</span></td>
-                        <td>7501.52</td>
+                        <td style="font-weight: 600;">53.34</td>
+                        <td class="price-cell">105.38</td>
+                        <td><span class='positive'>+4.32%</span></td>
+                        <td>7504.36</td>
                         <td><span class='neutral'>-</span></td>
                         <td><span class='positive'>+16.4%</span></td>
                         <td>2.86</td>
@@ -2990,10 +2952,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">47.7</td>
-                        <td class="price-cell">3935.1</td>
-                        <td><span class='negative'>-0.63%</span></td>
-                        <td>3573.43</td>
+                        <td style="font-weight: 600;">48.08</td>
+                        <td class="price-cell">3946.4</td>
+                        <td><span class='negative'>-0.4%</span></td>
+                        <td>3586.96</td>
                         <td><span class='negative'>-13.3%</span></td>
                         <td><span class='negative'>-2.4%</span></td>
                         <td>0.88</td>
@@ -3009,33 +2971,14 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">46.77</td>
-                        <td class="price-cell">611.0</td>
-                        <td><span class='positive'>+6.45%</span></td>
-                        <td>4412.12</td>
+                        <td style="font-weight: 600;">46.81</td>
+                        <td class="price-cell">611.35</td>
+                        <td><span class='positive'>+6.5%</span></td>
+                        <td>4406.34</td>
                         <td><span class='positive'>+441.9%</span></td>
                         <td><span class='positive'>+12.1%</span></td>
                         <td>1.25</td>
                         <td><span class='positive'>+16.1%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="ORIENTHOT">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('ORIENTHOT', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:ORIENTHOT" target="_blank" class="tv-link" title="Open in TradingView">ORIENTHOT</a>
-                        </td>
-                        <td><span class="badge">Consumer Cyclical</span></td>
-                        <td>7</td>
-                        <td style="font-weight: 600;">42.18</td>
-                        <td class="price-cell">142.24</td>
-                        <td><span class='positive'>+5.37%</span></td>
-                        <td>2538.79</td>
-                        <td><span class='negative'>-83.4%</span></td>
-                        <td><span class='negative'>-18.3%</span></td>
-                        <td>0.17</td>
-                        <td><span class='positive'>+31.1%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="GNA">
@@ -3047,33 +2990,33 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">42.12</td>
-                        <td class="price-cell">549.05</td>
-                        <td><span class='negative'>-1.14%</span></td>
-                        <td>2356.9</td>
+                        <td style="font-weight: 600;">42.41</td>
+                        <td class="price-cell">550.35</td>
+                        <td><span class='negative'>-0.95%</span></td>
+                        <td>2362.48</td>
                         <td><span class='positive'>+24.1%</span></td>
                         <td><span class='positive'>+14.5%</span></td>
                         <td><span class='neutral'>-</span></td>
                         <td><span class='positive'>+37.9%</span></td>
                     </tr>
         
-                    <tr class="" data-symbol="STOVEKRAFT">
+                    <tr class="" data-symbol="ORIENTHOT">
                         <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('STOVEKRAFT', this)" title="Add to Focus">☆</button>
+                            <button class="star-btn" onclick="toggleFocus('ORIENTHOT', this)" title="Add to Focus">☆</button>
                         </td>
                         <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:STOVEKRAFT" target="_blank" class="tv-link" title="Open in TradingView">STOVEKRAFT</a>
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:ORIENTHOT" target="_blank" class="tv-link" title="Open in TradingView">ORIENTHOT</a>
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">41.67</td>
-                        <td class="price-cell">810.4</td>
-                        <td><span class='positive'>+3.0%</span></td>
-                        <td>2683.02</td>
-                        <td><span class='positive'>+35.6%</span></td>
-                        <td><span class='positive'>+9.6%</span></td>
-                        <td>0.23</td>
-                        <td><span class='positive'>+36.2%</span></td>
+                        <td style="font-weight: 600;">41.68</td>
+                        <td class="price-cell">141.8</td>
+                        <td><span class='positive'>+5.11%</span></td>
+                        <td>2532.54</td>
+                        <td><span class='negative'>-83.4%</span></td>
+                        <td><span class='negative'>-18.3%</span></td>
+                        <td>0.17</td>
+                        <td><span class='positive'>+31.1%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="PGIL">
@@ -3085,33 +3028,33 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">41.43</td>
-                        <td class="price-cell">2344.0</td>
-                        <td><span class='negative'>-0.97%</span></td>
-                        <td>10827.06</td>
+                        <td style="font-weight: 600;">41.42</td>
+                        <td class="price-cell">2344.6</td>
+                        <td><span class='negative'>-0.95%</span></td>
+                        <td>10845.08</td>
                         <td><span class='positive'>+20.6%</span></td>
                         <td><span class='positive'>+16.3%</span></td>
                         <td>0.66</td>
                         <td><span class='positive'>+33.3%</span></td>
                     </tr>
         
-                    <tr class="" data-symbol="SHRIPISTON">
+                    <tr class="" data-symbol="STOVEKRAFT">
                         <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('SHRIPISTON', this)" title="Add to Focus">☆</button>
+                            <button class="star-btn" onclick="toggleFocus('STOVEKRAFT', this)" title="Add to Focus">☆</button>
                         </td>
                         <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:SHRIPISTON" target="_blank" class="tv-link" title="Open in TradingView">SHRIPISTON</a>
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:STOVEKRAFT" target="_blank" class="tv-link" title="Open in TradingView">STOVEKRAFT</a>
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">41.18</td>
-                        <td class="price-cell">4627.1</td>
-                        <td><span class='positive'>+2.58%</span></td>
-                        <td>20383.61</td>
-                        <td><span class='negative'>-7.6%</span></td>
-                        <td><span class='positive'>+1.3%</span></td>
-                        <td><span class='neutral'>-</span></td>
-                        <td><span class='positive'>+5.8%</span></td>
+                        <td style="font-weight: 600;">41.22</td>
+                        <td class="price-cell">808.15</td>
+                        <td><span class='positive'>+2.77%</span></td>
+                        <td>2671.76</td>
+                        <td><span class='positive'>+35.6%</span></td>
+                        <td><span class='positive'>+9.6%</span></td>
+                        <td>0.23</td>
+                        <td><span class='positive'>+36.2%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="KDDL">
@@ -3123,14 +3066,33 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">40.58</td>
-                        <td class="price-cell">3974.2</td>
-                        <td><span class='positive'>+1.29%</span></td>
-                        <td>4882.81</td>
+                        <td style="font-weight: 600;">41.0</td>
+                        <td class="price-cell">3987.3</td>
+                        <td><span class='positive'>+1.56%</span></td>
+                        <td>4910.36</td>
                         <td><span class='positive'>+10.1%</span></td>
                         <td><span class='negative'>-3.6%</span></td>
                         <td>0.27</td>
                         <td><span class='positive'>+40.8%</span></td>
+                    </tr>
+        
+                    <tr class="" data-symbol="SHRIPISTON">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('SHRIPISTON', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:SHRIPISTON" target="_blank" class="tv-link" title="Open in TradingView">SHRIPISTON</a>
+                        </td>
+                        <td><span class="badge">Consumer Cyclical</span></td>
+                        <td>7</td>
+                        <td style="font-weight: 600;">40.48</td>
+                        <td class="price-cell">4606.2</td>
+                        <td><span class='positive'>+2.21%</span></td>
+                        <td>20286.7</td>
+                        <td><span class='negative'>-7.6%</span></td>
+                        <td><span class='positive'>+1.3%</span></td>
+                        <td><span class='neutral'>-</span></td>
+                        <td><span class='positive'>+5.8%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="TBOTEK">
@@ -3142,33 +3104,14 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">39.86</td>
-                        <td class="price-cell">1719.8</td>
-                        <td><span class='positive'>+2.54%</span></td>
-                        <td>18340.15</td>
+                        <td style="font-weight: 600;">39.75</td>
+                        <td class="price-cell">1719.1</td>
+                        <td><span class='positive'>+2.5%</span></td>
+                        <td>18347.62</td>
                         <td><span class='positive'>+38.5%</span></td>
                         <td><span class='positive'>+13.7%</span></td>
                         <td>0.49</td>
                         <td><span class='positive'>+32.0%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="PRICOLLTD">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('PRICOLLTD', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:PRICOLLTD" target="_blank" class="tv-link" title="Open in TradingView">PRICOLLTD</a>
-                        </td>
-                        <td><span class="badge">Consumer Cyclical</span></td>
-                        <td>7</td>
-                        <td style="font-weight: 600;">37.01</td>
-                        <td class="price-cell">779.75</td>
-                        <td><span class='negative'>-0.45%</span></td>
-                        <td>9497.62</td>
-                        <td><span class='negative'>-8.3%</span></td>
-                        <td><span class='positive'>+0.5%</span></td>
-                        <td>0.3</td>
-                        <td><span class='positive'>+60.3%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="VARROC">
@@ -3180,10 +3123,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">36.32</td>
-                        <td class="price-cell">803.0</td>
-                        <td><span class='negative'>-1.28%</span></td>
-                        <td>12269.79</td>
+                        <td style="font-weight: 600;">36.35</td>
+                        <td class="price-cell">803.5</td>
+                        <td><span class='negative'>-1.23%</span></td>
+                        <td>12257.56</td>
                         <td><span class='neutral'>-</span></td>
                         <td><span class='positive'>+3.5%</span></td>
                         <td>0.51</td>
@@ -3199,10 +3142,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">34.77</td>
-                        <td class="price-cell">423.3</td>
-                        <td><span class='positive'>+0.02%</span></td>
-                        <td>8391.56</td>
+                        <td style="font-weight: 600;">35.33</td>
+                        <td class="price-cell">425.2</td>
+                        <td><span class='positive'>+0.38%</span></td>
+                        <td>8412.36</td>
                         <td><span class='negative'>0.0%</span></td>
                         <td><span class='negative'>-0.5%</span></td>
                         <td>0.57</td>
@@ -3218,10 +3161,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">34.08</td>
-                        <td class="price-cell">188.46</td>
-                        <td><span class='positive'>+4.72%</span></td>
-                        <td>17870.93</td>
+                        <td style="font-weight: 600;">34.51</td>
+                        <td class="price-cell">189.13</td>
+                        <td><span class='positive'>+5.02%</span></td>
+                        <td>17921.18</td>
                         <td><span class='positive'>+10700.0%</span></td>
                         <td><span class='positive'>+7.7%</span></td>
                         <td>0.47</td>
@@ -3237,10 +3180,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">33.99</td>
-                        <td class="price-cell">806.8</td>
-                        <td><span class='negative'>-0.21%</span></td>
-                        <td>50316.78</td>
+                        <td style="font-weight: 600;">33.92</td>
+                        <td class="price-cell">806.7</td>
+                        <td><span class='negative'>-0.22%</span></td>
+                        <td>50335.49</td>
                         <td><span class='negative'>-6.1%</span></td>
                         <td><span class='positive'>+3.5%</span></td>
                         <td>0.07</td>
@@ -3256,10 +3199,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">31.88</td>
-                        <td class="price-cell">221.61</td>
-                        <td><span class='positive'>+4.68%</span></td>
-                        <td>2823.12</td>
+                        <td style="font-weight: 600;">32.5</td>
+                        <td class="price-cell">222.72</td>
+                        <td><span class='positive'>+5.11%</span></td>
+                        <td>2837.88</td>
                         <td><span class='positive'>+134.5%</span></td>
                         <td><span class='positive'>+10.5%</span></td>
                         <td>0.42</td>
@@ -3275,10 +3218,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">31.29</td>
-                        <td class="price-cell">5161.0</td>
-                        <td><span class='negative'>-1.12%</span></td>
-                        <td>7466.65</td>
+                        <td style="font-weight: 600;">31.66</td>
+                        <td class="price-cell">5177.5</td>
+                        <td><span class='negative'>-0.86%</span></td>
+                        <td>7496.31</td>
                         <td><span class='positive'>+263.0%</span></td>
                         <td><span class='positive'>+77.6%</span></td>
                         <td>0.56</td>
@@ -3294,10 +3237,10 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">31.07</td>
-                        <td class="price-cell">245.66</td>
-                        <td><span class='positive'>+3.88%</span></td>
-                        <td>7905.27</td>
+                        <td style="font-weight: 600;">31.04</td>
+                        <td class="price-cell">245.69</td>
+                        <td><span class='positive'>+3.89%</span></td>
+                        <td>7903.02</td>
                         <td><span class='neutral'>-</span></td>
                         <td><span class='positive'>+12.5%</span></td>
                         <td>1.02</td>
@@ -3313,33 +3256,14 @@
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
                         <td>7</td>
-                        <td style="font-weight: 600;">30.14</td>
-                        <td class="price-cell">3829.9</td>
+                        <td style="font-weight: 600;">30.09</td>
+                        <td class="price-cell">3830.0</td>
                         <td><span class='negative'>-0.42%</span></td>
-                        <td>23893.08</td>
+                        <td>23876.85</td>
                         <td><span class='positive'>+76.3%</span></td>
                         <td><span class='positive'>+10.0%</span></td>
                         <td>0.19</td>
                         <td><span class='positive'>+69.3%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="REDINGTON">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('REDINGTON', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:REDINGTON" target="_blank" class="tv-link" title="Open in TradingView">REDINGTON</a>
-                        </td>
-                        <td><span class="badge">Technology</span></td>
-                        <td>8</td>
-                        <td style="font-weight: 600;">58.9</td>
-                        <td class="price-cell">360.55</td>
-                        <td><span class='positive'>+3.81%</span></td>
-                        <td>28214.24</td>
-                        <td><span class='positive'>+24.2%</span></td>
-                        <td><span class='positive'>+5.1%</span></td>
-                        <td>0.27</td>
-                        <td><span class='positive'>+75.8%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="RPTECH">
@@ -3351,14 +3275,33 @@
                         </td>
                         <td><span class="badge">Technology</span></td>
                         <td>8</td>
-                        <td style="font-weight: 600;">58.43</td>
-                        <td class="price-cell">852.0</td>
-                        <td><span class='negative'>-0.9%</span></td>
-                        <td>5606.74</td>
+                        <td style="font-weight: 600;">58.2</td>
+                        <td class="price-cell">851.05</td>
+                        <td><span class='negative'>-1.0%</span></td>
+                        <td>5604.44</td>
                         <td><span class='positive'>+22.1%</span></td>
                         <td><span class='positive'>+13.6%</span></td>
                         <td>0.49</td>
                         <td><span class='positive'>+30.5%</span></td>
+                    </tr>
+        
+                    <tr class="" data-symbol="REDINGTON">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('REDINGTON', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:REDINGTON" target="_blank" class="tv-link" title="Open in TradingView">REDINGTON</a>
+                        </td>
+                        <td><span class="badge">Technology</span></td>
+                        <td>8</td>
+                        <td style="font-weight: 600;">58.05</td>
+                        <td class="price-cell">358.75</td>
+                        <td><span class='positive'>+3.38%</span></td>
+                        <td>28030.52</td>
+                        <td><span class='positive'>+24.2%</span></td>
+                        <td><span class='positive'>+5.1%</span></td>
+                        <td>0.27</td>
+                        <td><span class='positive'>+75.8%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="NPST">
@@ -3370,10 +3313,10 @@
                         </td>
                         <td><span class="badge">Technology</span></td>
                         <td>8</td>
-                        <td style="font-weight: 600;">53.94</td>
-                        <td class="price-cell">1604.9</td>
-                        <td><span class='positive'>+1.07%</span></td>
-                        <td>3358.81</td>
+                        <td style="font-weight: 600;">56.14</td>
+                        <td class="price-cell">1628.1</td>
+                        <td><span class='positive'>+2.26%</span></td>
+                        <td>3386.56</td>
                         <td><span class='positive'>+4.2%</span></td>
                         <td><span class='positive'>+17.8%</span></td>
                         <td>0.03</td>
@@ -3389,10 +3332,10 @@
                         </td>
                         <td><span class="badge">Technology</span></td>
                         <td>8</td>
-                        <td style="font-weight: 600;">41.96</td>
-                        <td class="price-cell">601.45</td>
-                        <td><span class='positive'>+5.68%</span></td>
-                        <td>5430.27</td>
+                        <td style="font-weight: 600;">42.53</td>
+                        <td class="price-cell">604.05</td>
+                        <td><span class='positive'>+6.05%</span></td>
+                        <td>5442.0</td>
                         <td><span class='negative'>-7.1%</span></td>
                         <td><span class='positive'>+82.1%</span></td>
                         <td>0.45</td>
@@ -3408,10 +3351,10 @@
                         </td>
                         <td><span class="badge">Technology</span></td>
                         <td>8</td>
-                        <td style="font-weight: 600;">38.97</td>
-                        <td class="price-cell">2125.7</td>
-                        <td><span class='positive'>+1.64%</span></td>
-                        <td>14202.84</td>
+                        <td style="font-weight: 600;">38.72</td>
+                        <td class="price-cell">2122.7</td>
+                        <td><span class='positive'>+1.52%</span></td>
+                        <td>14191.48</td>
                         <td><span class='negative'>-15.3%</span></td>
                         <td><span class='positive'>+0.9%</span></td>
                         <td>0.3</td>
@@ -3427,10 +3370,10 @@
                         </td>
                         <td><span class="badge">Technology</span></td>
                         <td>8</td>
-                        <td style="font-weight: 600;">35.6</td>
-                        <td class="price-cell">1451.6</td>
-                        <td><span class='negative'>-0.38%</span></td>
-                        <td>27957.59</td>
+                        <td style="font-weight: 600;">35.69</td>
+                        <td class="price-cell">1453.1</td>
+                        <td><span class='negative'>-0.3%</span></td>
+                        <td>27967.22</td>
                         <td><span class='negative'>-1.7%</span></td>
                         <td><span class='positive'>+8.4%</span></td>
                         <td>0.13</td>
@@ -3446,33 +3389,14 @@
                         </td>
                         <td><span class="badge">Technology</span></td>
                         <td>8</td>
-                        <td style="font-weight: 600;">35.57</td>
-                        <td class="price-cell">5287.0</td>
-                        <td><span class='positive'>+0.89%</span></td>
-                        <td>31429.05</td>
+                        <td style="font-weight: 600;">35.65</td>
+                        <td class="price-cell">5292.0</td>
+                        <td><span class='positive'>+0.97%</span></td>
+                        <td>31310.16</td>
                         <td><span class='positive'>+20.5%</span></td>
                         <td><span class='positive'>+5.9%</span></td>
                         <td>0.39</td>
                         <td><span class='positive'>+31.6%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="RISHABH">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('RISHABH', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:RISHABH" target="_blank" class="tv-link" title="Open in TradingView">RISHABH</a>
-                        </td>
-                        <td><span class="badge">Technology</span></td>
-                        <td>8</td>
-                        <td style="font-weight: 600;">29.62</td>
-                        <td class="price-cell">696.0</td>
-                        <td><span class='positive'>+2.43%</span></td>
-                        <td>2693.97</td>
-                        <td><span class='negative'>-1.5%</span></td>
-                        <td><span class='positive'>+11.6%</span></td>
-                        <td>0.11</td>
-                        <td><span class='positive'>+28.5%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="EBGNG">
@@ -3484,14 +3408,33 @@
                         </td>
                         <td><span class="badge">Technology</span></td>
                         <td>8</td>
-                        <td style="font-weight: 600;">29.13</td>
-                        <td class="price-cell">582.8</td>
-                        <td><span class='negative'>-0.2%</span></td>
-                        <td>6646.3</td>
+                        <td style="font-weight: 600;">29.57</td>
+                        <td class="price-cell">585.0</td>
+                        <td><span class='positive'>+0.11%</span></td>
+                        <td>6675.94</td>
                         <td><span class='negative'>-31.4%</span></td>
                         <td><span class='negative'>-36.7%</span></td>
                         <td>0.59</td>
                         <td><span class='positive'>+21.0%</span></td>
+                    </tr>
+        
+                    <tr class="" data-symbol="RISHABH">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('RISHABH', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:RISHABH" target="_blank" class="tv-link" title="Open in TradingView">RISHABH</a>
+                        </td>
+                        <td><span class="badge">Technology</span></td>
+                        <td>8</td>
+                        <td style="font-weight: 600;">29.57</td>
+                        <td class="price-cell">696.0</td>
+                        <td><span class='positive'>+2.43%</span></td>
+                        <td>2693.0</td>
+                        <td><span class='negative'>-1.5%</span></td>
+                        <td><span class='positive'>+11.6%</span></td>
+                        <td>0.11</td>
+                        <td><span class='positive'>+28.5%</span></td>
                     </tr>
         
                 </tbody>
