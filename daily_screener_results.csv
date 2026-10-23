@@ -1,17 +1,11 @@
 Symbol,Price,3M_Ret,1W_Ret,Dist_10EMA,Is_Watchlist,Is_Breakout,MarketCap_Cr,Sector,RS_Score,Debt_Equity,Free_Float,QoQ_Sales,QoQ_EPS,Sector_Rank
-TFCILTD.NS,150.2,76.64,-6.59,-1.49,True,False,6953.92,Financial Services,82.9,0.82,48.5,7.4,91.3,1
-PCJEWELLER.NS,18.51,90.82,27.92,17.49,False,False,18154.16,Consumer Cyclical,97.08,0.14,45.2,-5.4,12.5,2
-SHANTIGOLD.NS,399.2,87.75,2.91,3.88,True,False,3063.44,Consumer Cyclical,94.01,0.36,22.2,8.7,-10.9,2
-SKYGOLD.NS,1045.6,68.29,8.05,6.9,False,False,16193.61,Consumer Cyclical,74.55,0.72,41.6,5.3,22.4,2
-DPABHUSHAN.NS,2207.6,65.24,-9.44,-1.35,True,False,5039.49,Consumer Cyclical,71.5,0.48,21.6,-36.1,27.0,2
-SBC.NS,62.94,48.9,-1.82,0.51,True,False,2997.14,Consumer Cyclical,55.16,3.06,42.9,-14.5,17.6,2
-SHRINGARMS.NS,312.34,39.09,-1.7,8.84,False,False,3011.96,Consumer Cyclical,45.35,0.28,17.9,-24.4,0.0,2
-SYNCOMF.NS,22.07,63.85,-1.69,-0.96,True,False,2074.58,Healthcare,70.11,0.0,50.0,-7.3,-3.7,3
-CUPID.NS,340.75,58.65,-3.91,-0.29,True,False,45819.31,Consumer Defensive,64.91,0.13,33.0,29.0,23.1,4
-RATNAVEER.NS,335.1,85.49,2.04,-0.57,True,False,2812.37,Basic Materials,91.75,0.5,43.5,26.4,252.4,5
-OAL.NS,604.5,68.5,15.73,6.03,False,False,2034.36,Basic Materials,74.76,0.61,23.5,-8.0,-36.4,5
-SAMBHV.NS,162.42,36.53,-0.87,-0.61,True,False,4786.05,Basic Materials,42.79,0.35,30.6,6.8,6.1,5
-TATVA.NS,1890.1,32.35,-2.6,0.17,True,False,4421.33,Basic Materials,38.61,0.21,25.8,24.5,54.9,5
-PTCIL.NS,25115.0,39.99,0.56,1.82,True,False,39800.37,Industrials,46.25,0.18,34.5,-14.9,-51.3,6
-BLUSPRING.NS,154.35,38.64,-7.16,-1.52,True,False,2307.57,Industrials,44.9,0.18,33.7,9.8,-111.1,6
-NAZARA.NS,398.9,30.94,-1.55,0.01,True,False,16298.17,Communication Services,37.2,0.06,59.4,7.8,-270.1,7
+RATNAVEER.NS,330.7,87.25,-3.56,-1.07,True,False,2775.44,Basic Materials,93.81,0.5,43.5,26.4,252.4,1
+WSTCSTPAPR.NS,797.45,53.46,-5.07,-1.16,True,False,5267.07,Basic Materials,60.02,0.08,41.3,-15.6,157.5,1
+PCJEWELLER.NS,18.04,78.97,10.81,9.24,False,False,17693.19,Consumer Cyclical,85.53,0.04,45.5,-5.4,12.5,2
+SHANTIGOLD.NS,368.5,72.99,-12.95,-3.77,True,False,2827.85,Consumer Cyclical,79.55,0.36,22.2,8.7,-10.9,2
+SSWL.NS,468.75,67.83,12.11,12.97,False,True,7371.8,Consumer Cyclical,74.39,0.46,24.8,2.4,14.2,2
+SKYGOLD.NS,1046.85,59.63,-1.3,4.66,False,False,16212.97,Consumer Cyclical,66.19,0.72,41.6,5.3,22.4,2
+DPABHUSHAN.NS,2186.0,48.51,-4.69,-1.11,True,False,4990.18,Consumer Cyclical,55.07,0.48,21.6,-36.1,27.0,2
+SBC.NS,61.05,45.77,-3.6,-1.94,True,False,2907.14,Consumer Cyclical,52.33,3.06,42.9,-14.5,17.6,2
+ANTELOPUS.NS,1136.4,30.85,13.29,6.97,False,True,3995.85,Energy,37.41,0.01,86.2,28.5,42.6,3
+NAZARA.NS,402.15,30.02,-3.83,1.09,True,False,16430.95,Communication Services,36.58,0.06,59.4,7.8,-270.1,4
