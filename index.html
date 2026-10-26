@@ -324,7 +324,7 @@
                 <button class="top-tab" onclick="switchModule('historical', this)">🕰️ Historical Engine</button>
             </div>
             <div class="topbar-right">
-                <span class="last-updated" id="lastUpdated"><span class="dot dot-fresh"></span> Updated: 23 Oct 2026, 02:21 PM</span>
+                <span class="last-updated" id="lastUpdated"><span class="dot dot-fresh"></span> Updated: 26 Oct 2026, 09:39 AM</span>
                 <button class="refresh-btn" id="refreshBtn" onclick="refreshData()" title="Re-fetch market data">
                     <span class="refresh-icon">🔄</span>
                     <span class="spinner"></span>
@@ -357,13 +357,13 @@
                     </div>
     
                     <div class="nav-item active" onclick="switchView('daily-breakouts', this)">
-                        <span>🚀</span> Breakouts <span class="nav-count">2</span>
+                        <span>🚀</span> Breakouts <span class="nav-count">1</span>
                     </div>
                     <div class="nav-item" onclick="switchView('daily-watchlist', this)">
-                        <span>🎯</span> Watchlist <span class="nav-count">6</span>
+                        <span>🎯</span> Watchlist <span class="nav-count">9</span>
                     </div>
                     <div class="nav-item" onclick="switchView('daily-universe', this)">
-                        <span>🌌</span> Full Universe <span class="nav-count">10</span>
+                        <span>🌌</span> Full Universe <span class="nav-count">12</span>
                     </div>
                 </div>
 
@@ -417,42 +417,23 @@
                 </thead>
                 <tbody>
     
-                    <tr class="" data-symbol="SSWL">
+                    <tr class="" data-symbol="OAL">
                         <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('SSWL', this)" title="Add to Focus">☆</button>
+                            <button class="star-btn" onclick="toggleFocus('OAL', this)" title="Add to Focus">☆</button>
                         </td>
                         <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:SSWL" target="_blank" class="tv-link" title="Open in TradingView">SSWL</a>
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:OAL" target="_blank" class="tv-link" title="Open in TradingView">OAL</a>
                         </td>
-                        <td><span class="badge">Consumer Cyclical</span></td>
+                        <td><span class="badge">Basic Materials</span></td>
                         <td>2</td>
-                        <td style="font-weight: 600;">74.39</td>
-                        <td class="price-cell">468.75</td>
-                        <td><span class='positive'>+12.97%</span></td>
-                        <td>7371.8</td>
-                        <td><span class='positive'>+14.2%</span></td>
-                        <td><span class='positive'>+2.4%</span></td>
-                        <td>0.46</td>
-                        <td><span class='positive'>+24.8%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="ANTELOPUS">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('ANTELOPUS', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:ANTELOPUS" target="_blank" class="tv-link" title="Open in TradingView">ANTELOPUS</a>
-                        </td>
-                        <td><span class="badge">Energy</span></td>
-                        <td>3</td>
-                        <td style="font-weight: 600;">37.41</td>
-                        <td class="price-cell">1136.4</td>
-                        <td><span class='positive'>+6.97%</span></td>
-                        <td>3995.85</td>
-                        <td><span class='positive'>+42.6%</span></td>
-                        <td><span class='positive'>+28.5%</span></td>
-                        <td>0.01</td>
-                        <td><span class='positive'>+86.2%</span></td>
+                        <td style="font-weight: 600;">85.13</td>
+                        <td class="price-cell">626.55</td>
+                        <td><span class='positive'>+7.32%</span></td>
+                        <td>2108.4</td>
+                        <td><span class='negative'>-36.4%</span></td>
+                        <td><span class='negative'>-8.0%</span></td>
+                        <td>0.61</td>
+                        <td><span class='positive'>+23.5%</span></td>
                     </tr>
         
                 </tbody>
@@ -502,6 +483,25 @@
                 </thead>
                 <tbody>
     
+                    <tr class="" data-symbol="TFCILTD">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('TFCILTD', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:TFCILTD" target="_blank" class="tv-link" title="Open in TradingView">TFCILTD</a>
+                        </td>
+                        <td><span class="badge">Financial Services</span></td>
+                        <td>1</td>
+                        <td style="font-weight: 600;">93.79</td>
+                        <td class="price-cell">154.12</td>
+                        <td><span class='positive'>+1.51%</span></td>
+                        <td>7142.35</td>
+                        <td><span class='positive'>+91.3%</span></td>
+                        <td><span class='positive'>+7.4%</span></td>
+                        <td>0.82</td>
+                        <td><span class='positive'>+48.5%</span></td>
+                    </tr>
+        
                     <tr class="" data-symbol="RATNAVEER">
                         <td class="star-cell">
                             <button class="star-btn" onclick="toggleFocus('RATNAVEER', this)" title="Add to Focus">☆</button>
@@ -510,11 +510,11 @@
                             <a href="https://in.tradingview.com/chart/?symbol=NSE:RATNAVEER" target="_blank" class="tv-link" title="Open in TradingView">RATNAVEER</a>
                         </td>
                         <td><span class="badge">Basic Materials</span></td>
-                        <td>1</td>
-                        <td style="font-weight: 600;">93.81</td>
-                        <td class="price-cell">330.7</td>
-                        <td><span class='negative'>-1.07%</span></td>
-                        <td>2775.44</td>
+                        <td>2</td>
+                        <td style="font-weight: 600;">95.77</td>
+                        <td class="price-cell">333.8</td>
+                        <td><span class='negative'>-0.12%</span></td>
+                        <td>2797.27</td>
                         <td><span class='positive'>+252.4%</span></td>
                         <td><span class='positive'>+26.4%</span></td>
                         <td>0.5</td>
@@ -529,34 +529,34 @@
                             <a href="https://in.tradingview.com/chart/?symbol=NSE:WSTCSTPAPR" target="_blank" class="tv-link" title="Open in TradingView">WSTCSTPAPR</a>
                         </td>
                         <td><span class="badge">Basic Materials</span></td>
-                        <td>1</td>
-                        <td style="font-weight: 600;">60.02</td>
-                        <td class="price-cell">797.45</td>
-                        <td><span class='negative'>-1.16%</span></td>
-                        <td>5267.07</td>
+                        <td>2</td>
+                        <td style="font-weight: 600;">49.12</td>
+                        <td class="price-cell">789.0</td>
+                        <td><span class='negative'>-1.81%</span></td>
+                        <td>5211.59</td>
                         <td><span class='positive'>+157.5%</span></td>
                         <td><span class='negative'>-15.6%</span></td>
                         <td>0.08</td>
                         <td><span class='positive'>+41.3%</span></td>
                     </tr>
         
-                    <tr class="" data-symbol="SHANTIGOLD">
+                    <tr class="" data-symbol="PCJEWELLER">
                         <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('SHANTIGOLD', this)" title="Add to Focus">☆</button>
+                            <button class="star-btn" onclick="toggleFocus('PCJEWELLER', this)" title="Add to Focus">☆</button>
                         </td>
                         <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:SHANTIGOLD" target="_blank" class="tv-link" title="Open in TradingView">SHANTIGOLD</a>
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:PCJEWELLER" target="_blank" class="tv-link" title="Open in TradingView">PCJEWELLER</a>
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
-                        <td>2</td>
-                        <td style="font-weight: 600;">79.55</td>
-                        <td class="price-cell">368.5</td>
-                        <td><span class='negative'>-3.77%</span></td>
-                        <td>2827.85</td>
-                        <td><span class='negative'>-10.9%</span></td>
-                        <td><span class='positive'>+8.7%</span></td>
-                        <td>0.36</td>
-                        <td><span class='positive'>+22.2%</span></td>
+                        <td>3</td>
+                        <td style="font-weight: 600;">73.89</td>
+                        <td class="price-cell">16.63</td>
+                        <td><span class='positive'>+0.57%</span></td>
+                        <td>16231.84</td>
+                        <td><span class='positive'>+88.9%</span></td>
+                        <td><span class='positive'>+20.2%</span></td>
+                        <td>0.04</td>
+                        <td><span class='positive'>+45.5%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="DPABHUSHAN">
@@ -567,11 +567,11 @@
                             <a href="https://in.tradingview.com/chart/?symbol=NSE:DPABHUSHAN" target="_blank" class="tv-link" title="Open in TradingView">DPABHUSHAN</a>
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
-                        <td>2</td>
-                        <td style="font-weight: 600;">55.07</td>
-                        <td class="price-cell">2186.0</td>
-                        <td><span class='negative'>-1.11%</span></td>
-                        <td>4990.18</td>
+                        <td>3</td>
+                        <td style="font-weight: 600;">58.77</td>
+                        <td class="price-cell">2125.8</td>
+                        <td><span class='negative'>-3.15%</span></td>
+                        <td>4889.51</td>
                         <td><span class='positive'>+27.0%</span></td>
                         <td><span class='negative'>-36.1%</span></td>
                         <td>0.48</td>
@@ -586,15 +586,53 @@
                             <a href="https://in.tradingview.com/chart/?symbol=NSE:SBC" target="_blank" class="tv-link" title="Open in TradingView">SBC</a>
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
-                        <td>2</td>
-                        <td style="font-weight: 600;">52.33</td>
-                        <td class="price-cell">61.05</td>
-                        <td><span class='negative'>-1.94%</span></td>
-                        <td>2907.14</td>
-                        <td><span class='positive'>+17.6%</span></td>
-                        <td><span class='negative'>-14.5%</span></td>
+                        <td>3</td>
+                        <td style="font-weight: 600;">56.68</td>
+                        <td class="price-cell">63.72</td>
+                        <td><span class='positive'>+1.91%</span></td>
+                        <td>3035.71</td>
+                        <td><span class='positive'>+20.0%</span></td>
+                        <td><span class='positive'>+35.7%</span></td>
                         <td>3.06</td>
                         <td><span class='positive'>+42.9%</span></td>
+                    </tr>
+        
+                    <tr class="" data-symbol="SKYGOLD">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('SKYGOLD', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:SKYGOLD" target="_blank" class="tv-link" title="Open in TradingView">SKYGOLD</a>
+                        </td>
+                        <td><span class="badge">Consumer Cyclical</span></td>
+                        <td>3</td>
+                        <td style="font-weight: 600;">50.96</td>
+                        <td class="price-cell">977.05</td>
+                        <td><span class='negative'>-1.91%</span></td>
+                        <td>15031.28</td>
+                        <td><span class='positive'>+22.4%</span></td>
+                        <td><span class='positive'>+5.3%</span></td>
+                        <td>0.72</td>
+                        <td><span class='positive'>+41.6%</span></td>
+                    </tr>
+        
+                    <tr class="" data-symbol="KMEW">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('KMEW', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:KMEW" target="_blank" class="tv-link" title="Open in TradingView">KMEW</a>
+                        </td>
+                        <td><span class="badge">Industrials</span></td>
+                        <td>4</td>
+                        <td style="font-weight: 600;">41.38</td>
+                        <td class="price-cell">3299.9</td>
+                        <td><span class='positive'>+2.75%</span></td>
+                        <td>8365.4</td>
+                        <td><span class='positive'>+166.6%</span></td>
+                        <td><span class='positive'>+70.7%</span></td>
+                        <td>0.39</td>
+                        <td><span class='positive'>+37.7%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="NAZARA">
@@ -605,11 +643,11 @@
                             <a href="https://in.tradingview.com/chart/?symbol=NSE:NAZARA" target="_blank" class="tv-link" title="Open in TradingView">NAZARA</a>
                         </td>
                         <td><span class="badge">Communication Services</span></td>
-                        <td>4</td>
-                        <td style="font-weight: 600;">36.58</td>
-                        <td class="price-cell">402.15</td>
-                        <td><span class='positive'>+1.09%</span></td>
-                        <td>16430.95</td>
+                        <td>6</td>
+                        <td style="font-weight: 600;">36.96</td>
+                        <td class="price-cell">400.8</td>
+                        <td><span class='positive'>+0.61%</span></td>
+                        <td>16363.54</td>
                         <td><span class='negative'>-270.1%</span></td>
                         <td><span class='positive'>+7.8%</span></td>
                         <td>0.06</td>
@@ -663,6 +701,25 @@
                 </thead>
                 <tbody>
     
+                    <tr class="" data-symbol="TFCILTD">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('TFCILTD', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:TFCILTD" target="_blank" class="tv-link" title="Open in TradingView">TFCILTD</a>
+                        </td>
+                        <td><span class="badge">Financial Services</span></td>
+                        <td>1</td>
+                        <td style="font-weight: 600;">93.79</td>
+                        <td class="price-cell">154.12</td>
+                        <td><span class='positive'>+1.51%</span></td>
+                        <td>7142.35</td>
+                        <td><span class='positive'>+91.3%</span></td>
+                        <td><span class='positive'>+7.4%</span></td>
+                        <td>0.82</td>
+                        <td><span class='positive'>+48.5%</span></td>
+                    </tr>
+        
                     <tr class="" data-symbol="RATNAVEER">
                         <td class="star-cell">
                             <button class="star-btn" onclick="toggleFocus('RATNAVEER', this)" title="Add to Focus">☆</button>
@@ -671,15 +728,34 @@
                             <a href="https://in.tradingview.com/chart/?symbol=NSE:RATNAVEER" target="_blank" class="tv-link" title="Open in TradingView">RATNAVEER</a>
                         </td>
                         <td><span class="badge">Basic Materials</span></td>
-                        <td>1</td>
-                        <td style="font-weight: 600;">93.81</td>
-                        <td class="price-cell">330.7</td>
-                        <td><span class='negative'>-1.07%</span></td>
-                        <td>2775.44</td>
+                        <td>2</td>
+                        <td style="font-weight: 600;">95.77</td>
+                        <td class="price-cell">333.8</td>
+                        <td><span class='negative'>-0.12%</span></td>
+                        <td>2797.27</td>
                         <td><span class='positive'>+252.4%</span></td>
                         <td><span class='positive'>+26.4%</span></td>
                         <td>0.5</td>
                         <td><span class='positive'>+43.5%</span></td>
+                    </tr>
+        
+                    <tr class="" data-symbol="OAL">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('OAL', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:OAL" target="_blank" class="tv-link" title="Open in TradingView">OAL</a>
+                        </td>
+                        <td><span class="badge">Basic Materials</span></td>
+                        <td>2</td>
+                        <td style="font-weight: 600;">85.13</td>
+                        <td class="price-cell">626.55</td>
+                        <td><span class='positive'>+7.32%</span></td>
+                        <td>2108.4</td>
+                        <td><span class='negative'>-36.4%</span></td>
+                        <td><span class='negative'>-8.0%</span></td>
+                        <td>0.61</td>
+                        <td><span class='positive'>+23.5%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="WSTCSTPAPR">
@@ -690,53 +766,15 @@
                             <a href="https://in.tradingview.com/chart/?symbol=NSE:WSTCSTPAPR" target="_blank" class="tv-link" title="Open in TradingView">WSTCSTPAPR</a>
                         </td>
                         <td><span class="badge">Basic Materials</span></td>
-                        <td>1</td>
-                        <td style="font-weight: 600;">60.02</td>
-                        <td class="price-cell">797.45</td>
-                        <td><span class='negative'>-1.16%</span></td>
-                        <td>5267.07</td>
+                        <td>2</td>
+                        <td style="font-weight: 600;">49.12</td>
+                        <td class="price-cell">789.0</td>
+                        <td><span class='negative'>-1.81%</span></td>
+                        <td>5211.59</td>
                         <td><span class='positive'>+157.5%</span></td>
                         <td><span class='negative'>-15.6%</span></td>
                         <td>0.08</td>
                         <td><span class='positive'>+41.3%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="PCJEWELLER">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('PCJEWELLER', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:PCJEWELLER" target="_blank" class="tv-link" title="Open in TradingView">PCJEWELLER</a>
-                        </td>
-                        <td><span class="badge">Consumer Cyclical</span></td>
-                        <td>2</td>
-                        <td style="font-weight: 600;">85.53</td>
-                        <td class="price-cell">18.04</td>
-                        <td><span class='positive'>+9.24%</span></td>
-                        <td>17693.19</td>
-                        <td><span class='positive'>+12.5%</span></td>
-                        <td><span class='negative'>-5.4%</span></td>
-                        <td>0.04</td>
-                        <td><span class='positive'>+45.5%</span></td>
-                    </tr>
-        
-                    <tr class="" data-symbol="SHANTIGOLD">
-                        <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('SHANTIGOLD', this)" title="Add to Focus">☆</button>
-                        </td>
-                        <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:SHANTIGOLD" target="_blank" class="tv-link" title="Open in TradingView">SHANTIGOLD</a>
-                        </td>
-                        <td><span class="badge">Consumer Cyclical</span></td>
-                        <td>2</td>
-                        <td style="font-weight: 600;">79.55</td>
-                        <td class="price-cell">368.5</td>
-                        <td><span class='negative'>-3.77%</span></td>
-                        <td>2827.85</td>
-                        <td><span class='negative'>-10.9%</span></td>
-                        <td><span class='positive'>+8.7%</span></td>
-                        <td>0.36</td>
-                        <td><span class='positive'>+22.2%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="SSWL">
@@ -747,34 +785,34 @@
                             <a href="https://in.tradingview.com/chart/?symbol=NSE:SSWL" target="_blank" class="tv-link" title="Open in TradingView">SSWL</a>
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
-                        <td>2</td>
-                        <td style="font-weight: 600;">74.39</td>
-                        <td class="price-cell">468.75</td>
-                        <td><span class='positive'>+12.97%</span></td>
-                        <td>7371.8</td>
-                        <td><span class='positive'>+14.2%</span></td>
-                        <td><span class='positive'>+2.4%</span></td>
+                        <td>3</td>
+                        <td style="font-weight: 600;">92.5</td>
+                        <td class="price-cell">523.3</td>
+                        <td><span class='positive'>+20.4%</span></td>
+                        <td>8200.59</td>
+                        <td><span class='positive'>+68.3%</span></td>
+                        <td><span class='positive'>+27.8%</span></td>
                         <td>0.46</td>
                         <td><span class='positive'>+24.8%</span></td>
                     </tr>
         
-                    <tr class="" data-symbol="SKYGOLD">
+                    <tr class="" data-symbol="PCJEWELLER">
                         <td class="star-cell">
-                            <button class="star-btn" onclick="toggleFocus('SKYGOLD', this)" title="Add to Focus">☆</button>
+                            <button class="star-btn" onclick="toggleFocus('PCJEWELLER', this)" title="Add to Focus">☆</button>
                         </td>
                         <td class="symbol">
-                            <a href="https://in.tradingview.com/chart/?symbol=NSE:SKYGOLD" target="_blank" class="tv-link" title="Open in TradingView">SKYGOLD</a>
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:PCJEWELLER" target="_blank" class="tv-link" title="Open in TradingView">PCJEWELLER</a>
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
-                        <td>2</td>
-                        <td style="font-weight: 600;">66.19</td>
-                        <td class="price-cell">1046.85</td>
-                        <td><span class='positive'>+4.66%</span></td>
-                        <td>16212.97</td>
-                        <td><span class='positive'>+22.4%</span></td>
-                        <td><span class='positive'>+5.3%</span></td>
-                        <td>0.72</td>
-                        <td><span class='positive'>+41.6%</span></td>
+                        <td>3</td>
+                        <td style="font-weight: 600;">73.89</td>
+                        <td class="price-cell">16.63</td>
+                        <td><span class='positive'>+0.57%</span></td>
+                        <td>16231.84</td>
+                        <td><span class='positive'>+88.9%</span></td>
+                        <td><span class='positive'>+20.2%</span></td>
+                        <td>0.04</td>
+                        <td><span class='positive'>+45.5%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="DPABHUSHAN">
@@ -785,11 +823,11 @@
                             <a href="https://in.tradingview.com/chart/?symbol=NSE:DPABHUSHAN" target="_blank" class="tv-link" title="Open in TradingView">DPABHUSHAN</a>
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
-                        <td>2</td>
-                        <td style="font-weight: 600;">55.07</td>
-                        <td class="price-cell">2186.0</td>
-                        <td><span class='negative'>-1.11%</span></td>
-                        <td>4990.18</td>
+                        <td>3</td>
+                        <td style="font-weight: 600;">58.77</td>
+                        <td class="price-cell">2125.8</td>
+                        <td><span class='negative'>-3.15%</span></td>
+                        <td>4889.51</td>
                         <td><span class='positive'>+27.0%</span></td>
                         <td><span class='negative'>-36.1%</span></td>
                         <td>0.48</td>
@@ -804,15 +842,53 @@
                             <a href="https://in.tradingview.com/chart/?symbol=NSE:SBC" target="_blank" class="tv-link" title="Open in TradingView">SBC</a>
                         </td>
                         <td><span class="badge">Consumer Cyclical</span></td>
-                        <td>2</td>
-                        <td style="font-weight: 600;">52.33</td>
-                        <td class="price-cell">61.05</td>
-                        <td><span class='negative'>-1.94%</span></td>
-                        <td>2907.14</td>
-                        <td><span class='positive'>+17.6%</span></td>
-                        <td><span class='negative'>-14.5%</span></td>
+                        <td>3</td>
+                        <td style="font-weight: 600;">56.68</td>
+                        <td class="price-cell">63.72</td>
+                        <td><span class='positive'>+1.91%</span></td>
+                        <td>3035.71</td>
+                        <td><span class='positive'>+20.0%</span></td>
+                        <td><span class='positive'>+35.7%</span></td>
                         <td>3.06</td>
                         <td><span class='positive'>+42.9%</span></td>
+                    </tr>
+        
+                    <tr class="" data-symbol="SKYGOLD">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('SKYGOLD', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:SKYGOLD" target="_blank" class="tv-link" title="Open in TradingView">SKYGOLD</a>
+                        </td>
+                        <td><span class="badge">Consumer Cyclical</span></td>
+                        <td>3</td>
+                        <td style="font-weight: 600;">50.96</td>
+                        <td class="price-cell">977.05</td>
+                        <td><span class='negative'>-1.91%</span></td>
+                        <td>15031.28</td>
+                        <td><span class='positive'>+22.4%</span></td>
+                        <td><span class='positive'>+5.3%</span></td>
+                        <td>0.72</td>
+                        <td><span class='positive'>+41.6%</span></td>
+                    </tr>
+        
+                    <tr class="" data-symbol="KMEW">
+                        <td class="star-cell">
+                            <button class="star-btn" onclick="toggleFocus('KMEW', this)" title="Add to Focus">☆</button>
+                        </td>
+                        <td class="symbol">
+                            <a href="https://in.tradingview.com/chart/?symbol=NSE:KMEW" target="_blank" class="tv-link" title="Open in TradingView">KMEW</a>
+                        </td>
+                        <td><span class="badge">Industrials</span></td>
+                        <td>4</td>
+                        <td style="font-weight: 600;">41.38</td>
+                        <td class="price-cell">3299.9</td>
+                        <td><span class='positive'>+2.75%</span></td>
+                        <td>8365.4</td>
+                        <td><span class='positive'>+166.6%</span></td>
+                        <td><span class='positive'>+70.7%</span></td>
+                        <td>0.39</td>
+                        <td><span class='positive'>+37.7%</span></td>
                     </tr>
         
                     <tr class="" data-symbol="ANTELOPUS">
@@ -823,11 +899,11 @@
                             <a href="https://in.tradingview.com/chart/?symbol=NSE:ANTELOPUS" target="_blank" class="tv-link" title="Open in TradingView">ANTELOPUS</a>
                         </td>
                         <td><span class="badge">Energy</span></td>
-                        <td>3</td>
-                        <td style="font-weight: 600;">37.41</td>
-                        <td class="price-cell">1136.4</td>
-                        <td><span class='positive'>+6.97%</span></td>
-                        <td>3995.85</td>
+                        <td>5</td>
+                        <td style="font-weight: 600;">40.39</td>
+                        <td class="price-cell">1189.5</td>
+                        <td><span class='positive'>+9.58%</span></td>
+                        <td>4170.26</td>
                         <td><span class='positive'>+42.6%</span></td>
                         <td><span class='positive'>+28.5%</span></td>
                         <td>0.01</td>
@@ -842,11 +918,11 @@
                             <a href="https://in.tradingview.com/chart/?symbol=NSE:NAZARA" target="_blank" class="tv-link" title="Open in TradingView">NAZARA</a>
                         </td>
                         <td><span class="badge">Communication Services</span></td>
-                        <td>4</td>
-                        <td style="font-weight: 600;">36.58</td>
-                        <td class="price-cell">402.15</td>
-                        <td><span class='positive'>+1.09%</span></td>
-                        <td>16430.95</td>
+                        <td>6</td>
+                        <td style="font-weight: 600;">36.96</td>
+                        <td class="price-cell">400.8</td>
+                        <td><span class='positive'>+0.61%</span></td>
+                        <td>16363.54</td>
                         <td><span class='negative'>-270.1%</span></td>
                         <td><span class='positive'>+7.8%</span></td>
                         <td>0.06</td>

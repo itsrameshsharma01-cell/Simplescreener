@@ -1,11 +1,13 @@
 Symbol,Price,3M_Ret,1W_Ret,Dist_10EMA,Is_Watchlist,Is_Breakout,MarketCap_Cr,Sector,RS_Score,Debt_Equity,Free_Float,QoQ_Sales,QoQ_EPS,Sector_Rank
-RATNAVEER.NS,330.7,87.25,-3.56,-1.07,True,False,2775.44,Basic Materials,93.81,0.5,43.5,26.4,252.4,1
-WSTCSTPAPR.NS,797.45,53.46,-5.07,-1.16,True,False,5267.07,Basic Materials,60.02,0.08,41.3,-15.6,157.5,1
-PCJEWELLER.NS,18.04,78.97,10.81,9.24,False,False,17693.19,Consumer Cyclical,85.53,0.04,45.5,-5.4,12.5,2
-SHANTIGOLD.NS,368.5,72.99,-12.95,-3.77,True,False,2827.85,Consumer Cyclical,79.55,0.36,22.2,8.7,-10.9,2
-SSWL.NS,468.75,67.83,12.11,12.97,False,True,7371.8,Consumer Cyclical,74.39,0.46,24.8,2.4,14.2,2
-SKYGOLD.NS,1046.85,59.63,-1.3,4.66,False,False,16212.97,Consumer Cyclical,66.19,0.72,41.6,5.3,22.4,2
-DPABHUSHAN.NS,2186.0,48.51,-4.69,-1.11,True,False,4990.18,Consumer Cyclical,55.07,0.48,21.6,-36.1,27.0,2
-SBC.NS,61.05,45.77,-3.6,-1.94,True,False,2907.14,Consumer Cyclical,52.33,3.06,42.9,-14.5,17.6,2
-ANTELOPUS.NS,1136.4,30.85,13.29,6.97,False,True,3995.85,Energy,37.41,0.01,86.2,28.5,42.6,3
-NAZARA.NS,402.15,30.02,-3.83,1.09,True,False,16430.95,Communication Services,36.58,0.06,59.4,7.8,-270.1,4
+TFCILTD.NS,154.12,88.39,-1.32,1.51,True,False,7142.35,Financial Services,93.79,0.82,48.5,7.4,91.3,1
+RATNAVEER.NS,333.8,90.37,-4.71,-0.12,True,False,2797.27,Basic Materials,95.77,0.5,43.5,26.4,252.4,2
+OAL.NS,626.55,79.73,0.34,7.32,False,True,2108.4,Basic Materials,85.13,0.61,23.5,-8.0,-36.4,2
+WSTCSTPAPR.NS,789.0,43.72,-4.1,-1.81,True,False,5211.59,Basic Materials,49.12,0.08,41.3,-15.6,157.5,2
+SSWL.NS,523.3,87.1,27.0,20.4,False,False,8200.59,Consumer Cyclical,92.5,0.46,24.8,27.8,68.3,3
+PCJEWELLER.NS,16.63,68.49,-8.27,0.57,True,False,16231.84,Consumer Cyclical,73.89,0.04,45.5,20.2,88.9,3
+DPABHUSHAN.NS,2125.8,53.37,-7.68,-3.15,True,False,4889.51,Consumer Cyclical,58.77,0.48,21.6,-36.1,27.0,3
+SBC.NS,63.72,51.28,-1.21,1.91,True,False,3035.71,Consumer Cyclical,56.68,3.06,42.9,35.7,20.0,3
+SKYGOLD.NS,977.05,45.56,-4.97,-1.91,True,False,15031.28,Consumer Cyclical,50.96,0.72,41.6,5.3,22.4,3
+KMEW.NS,3299.9,35.98,-0.73,2.75,True,False,8365.4,Industrials,41.38,0.39,37.7,70.7,166.6,4
+ANTELOPUS.NS,1189.5,34.99,18.63,9.58,False,False,4170.26,Energy,40.39,0.01,86.2,28.5,42.6,5
+NAZARA.NS,400.8,31.56,-0.84,0.61,True,False,16363.54,Communication Services,36.96,0.06,59.4,7.8,-270.1,6
